@@ -4,3 +4,8 @@ def c99():
             print("%d*%d=%d " %(i,j,i*j), end='')
             print()
 c99()
+
+class foo()
+
+    @staticmethod
+    @classmethod
