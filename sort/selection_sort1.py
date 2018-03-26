@@ -7,9 +7,11 @@ for i in range(n):
 
 def selection_sort(list):
     for i in range(len(list)):
-        for j in range(i,len(list)):
+        k = len(list)
+        for j in range(k):
             if list[i] > list[j]:
                 return list[j]
+            k-=1
         list[i]=list[j]
     print(list)
 

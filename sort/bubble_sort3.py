@@ -1,8 +1,9 @@
 import random
 
+n=20
 list=[]
 
-for i in range(10):
+for i in range(n):
     list.append(random.randint(1,100))
 print(list)
 

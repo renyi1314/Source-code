@@ -10,7 +10,7 @@ def bubble_sort(list):
     # 第一级遍历
     for index in range(length):
         # 第二级遍历
-        for j in range(1, length - index):
+        for j in range(1, length - index): #遍历9,8,7,找出最后的数值,依次往前排
             print (list[j])
             if list[j - 1] > list[j]:
                 list[j - 1], list[j] = list[j], list[j - 1]
