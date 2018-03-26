@@ -1,35 +1,12 @@
-#!/usr/bin/python
-'''
-Decorator
-'''
+def debug(func):
+    def decorator(*args,**kwargs):
+        print("[DEBUG]: enter {}()".format(func.__name__))
+        return func(*args,**kwargs)
+    return decorator
 
-class foo(object):
-    def f1(self):
-        print("original f1")
- 
-    def f2(self):
-        print("original f2")
- 
-class foo1(foo):
-    def f1(self):
-        print("decorator f1")
+@debug
+def say_hello():
+    print("say hello")
 
-class foo_decorator(object):
-    def __init__(self, decoratee):
-        self._decoratee = decoratee
- 
-    def f1(self):
-        print("decorated f1")
-        # self._decoratee.f1()
- 
-    def __getattr__(self, name):
-        return getattr(self._decoratee, name)
-
-u = foo()
-v = foo_decorator(u)
-v.f1()
-v.f2()
-v.__getattr__(foo_decorator,_decoratee)
-# u = foo1()
-# u.f1()
-# u.f2()
+n=1
+say_hello()

@@ -1,7 +1,8 @@
-####第一个和第二个比，大的放后面，最后一个不用比
 import random
-list = [999,888,777,666,555,444,333,222,111]
-#array = [111,222,333,444,555,666,777,888,999]
+
+list =[]
+for i in range(10):
+    list.append(random.randint(1,100))
 
 def bubble_sort(list):
     for i in range(len(list)):
