@@ -1,11 +1,13 @@
-def decorator(fun):
-    def debug():
-        print("DEBUG")
-        return fun()
-    return debug
-
-@decorator
 def foo():
-    print("foo")
+    print("hello")
 
-foo()
+class decorator():
+    def __init__(self,decorate_foo):
+        self._decorate_foo=decorate_foo
+
+    def foo(self):
+        print("decorator")
+        self._decorate_foo()
+
+foo_decorator=decorator(foo)
+foo_decorator.foo()
