@@ -15,6 +15,6 @@ class decorator__foo():
         print("decorator__foo")
         self._decorator.f1()
 
-x=foo()
-y=decorator__foo(x)
+x = foo()
+y = decorator__foo(x)
 y.f1()

@@ -1,11 +1,8 @@
-def c99():
-    for i in range(1,99):
-        for j in range(1,i+1):
-            print("%d*%d=%d " %(i,j,i*j), end='')
-            print()
-c99()
+a = int(input("please input number 1"))
+b = int(input("please input number 2"))
+c = a + b
+print("The result is :",c)
 
-class foo()
 
-    @staticmethod
-    @classmethod
+
+@property

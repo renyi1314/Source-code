@@ -6,6 +6,7 @@ def consumer():
             print('Consume %s' % receival)
             last = receival
 
+
 def producer(gen, n):
     gen.__next__()
     x = 0
@@ -15,5 +16,7 @@ def producer(gen, n):
         last = gen.send(x)
         # print()
     gen.close()
+
+
 gen = consumer()
 producer(gen, 5)
