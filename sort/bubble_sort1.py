@@ -3,8 +3,8 @@ import random
 n = 10
 list_a = []
 for k in range(n):
-    list.append(random.randint(1, 100))
-
+    list_a.append(random.randint(1, 100))
+print(list_a)
 
 def bubble_sort(list):
     for i in range(len(list)):
@@ -16,4 +16,4 @@ def bubble_sort(list):
     print(list)
 
 
-bubble_sort(list)
+bubble_sort(list_a)
