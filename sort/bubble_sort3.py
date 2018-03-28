@@ -1,6 +1,6 @@
 import random
 
-n=20
+n = 20
 list=[]
 
 for i in range(n):

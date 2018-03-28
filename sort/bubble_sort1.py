@@ -1,8 +1,8 @@
 import random
 
 n = 10
-list = []
-for i in range(n):
+list_a = []
+for k in range(n):
     list.append(random.randint(1, 100))
 
 

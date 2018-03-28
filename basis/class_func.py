@@ -1,9 +1,9 @@
-class foo():
+class Foo():
     def __init__(self, name):
         self.name = name
 
     @staticmethod
-    def f1(self):
+    def f1():
         print("normal f1")
 
     @staticmethod
@@ -15,4 +15,4 @@ class foo():
         print("classmethod f3")
 
 
-foo.f3()
+Foo.f3()

@@ -1,4 +1,4 @@
-class decorator():
+class Decorator():
 
     def __init__(self, func):
         self.func = func
@@ -8,7 +8,7 @@ class decorator():
         return self.func(*args, **kwargs)
 
 
-@decorator
+@Decorator
 def foo():
     print("Test")
 

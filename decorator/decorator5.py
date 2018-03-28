@@ -1,4 +1,4 @@
-class decorator():
+class Decorator():
     def __init__(self, level='INFO'):
         self.level = level
 
@@ -10,6 +10,6 @@ class decorator():
         return wrapper
 
 
-@decorator(level="INFO")
+@Decorator(level="INFO")
 def foo():
     print("hello")

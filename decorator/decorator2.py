@@ -1,20 +1,24 @@
-class foo():
+class Foo:
 
-    def f1(self):
+    @staticmethod
+    def f1():
         print("function 1")
 
-    def f2(self):
+    @staticmethod
+    def f2():
         print("function 2")
 
-class decorator__foo():
 
-    def __init__(self,decorator):
-        self._decorator=decorator
+class DecoratorFoo:
+
+    def __init__(self, decorator):
+        self._decorator = decorator
 
     def f1(self):
         print("decorator__foo")
         self._decorator.f1()
 
-x = foo()
-y = decorator__foo(x)
+
+x = Foo()
+y = DecoratorFoo(x)
 y.f1()

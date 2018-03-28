@@ -5,5 +5,6 @@ def input_number():
     print("The number1 + number2 is :", result)
     return result
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     input_number()

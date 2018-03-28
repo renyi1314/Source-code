@@ -2,7 +2,7 @@ def foo():
     print("hello")
 
 
-class decorator():
+class Decorator:
     def __init__(self, decorate_foo):
         self._decorate_foo = decorate_foo
 
@@ -11,5 +11,5 @@ class decorator():
         self._decorate_foo()
 
 
-foo_decorator = decorator(foo)
+foo_decorator = Decorator(foo)
 foo_decorator.foo()

@@ -1,11 +1,11 @@
 
-class foo():
+class Foo():
     def __init__(self, name):
         self.name = name
 
     age = 18
 
 
-f = foo("nick")
-print(foo.age)
+f = Foo("nick")
+print(Foo.age)
 print(f.name)
