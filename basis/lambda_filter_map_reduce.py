@@ -21,3 +21,4 @@ print(reduce_a)
 
 # 三个函数可以嵌套使用,比如下列可以计算1-100中所有偶数和
 print(reduce(lambda x, y: x + y, list(filter(lambda x: x % 2 == 0, range(100)))))
+print('\n'.join(['\t'.join(['%d * %d = %d'%(y,x,x*y) for y in range(1,x+1)])for x in range(1,10)]))

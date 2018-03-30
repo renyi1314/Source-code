@@ -1,10 +1,4 @@
-def cf_9(i):
-    j = 1
-    while j <= i:
-        print("%s * %s = %s"%(j, i, i*j), end=" ")
-        j += 1
+for i in range(1, 10):
+    for j in range(1, i + 1):
+        print("%s*%s=%s" % (i, j, i * j), end=" ")
     print("\n")
-    i += 1
-    if i <= 9:
-        cf_9(i)
-cf_9(1)

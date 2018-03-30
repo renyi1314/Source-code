@@ -1,6 +1,4 @@
-n1 = 0
-n2 = 0
-while n1 <= 99:
-    n1 += 1
-    n2 = n1 + n2
-print(n2)
+i = 0;
+while i < 5:
+    i += 1
+    print("*"*i)
