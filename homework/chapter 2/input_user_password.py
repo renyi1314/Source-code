@@ -8,7 +8,7 @@ def login(count):
         print("no more chance")
     else:
         count -= 1
-        print("haisheng %d" % count)
+        print("left %d" % count)
         return login(count=count)
 
 
