@@ -1,4 +1,4 @@
-k=1000
-while k>1:
+k = 1000
+while k > 1:
     print(k)
-    k = k/2
+    k = k / 2

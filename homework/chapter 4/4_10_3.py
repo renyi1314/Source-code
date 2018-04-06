@@ -4,6 +4,7 @@ from functools import reduce
 def sum_number(*args, **kwargs):
     result = reduce(lambda x, y: x + y, args) #构造函数得出结果
     print(result)
+    return result
     # s = 0
     # for i in args:
     #     s+=i    # 方法2,循环args取值
