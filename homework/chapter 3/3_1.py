@@ -17,3 +17,4 @@ print(name.split("k"))
 
 # f.将变量分割后得到列表
 print(type(name.split("k")))
+
