@@ -4,9 +4,9 @@ li = ['ethan', 'zoran', 'jim']
 print(len(li))
 
 # b. 列表中追加元素 “lucy”， 并输出添加后的列表
-list_add = ['ethan', 'zoran', 'jim']
-list_add.append("lucy")
-print(list_add)
+list_append = ['ethan', 'zoran', 'jim']
+list_append.append("lucy")
+print(list_append)
 
 # c. 请在列表的第 1 个位置插⼊元素 “Tony”， 并输出添加后的列表
 list_insert = ['ethan', 'zoran', 'jim']

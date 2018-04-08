@@ -1,4 +1,13 @@
-k = 1000
-while k > 1:
-    print(k)
-    k = k / 2
+def max_number(x, y):
+    m = x + y
+    return m
+
+
+class Foo:
+    pass
+
+
+max(10, 20)
+
+print(max(10, 20))
+sum(123, 123)

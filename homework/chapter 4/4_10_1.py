@@ -1,4 +1,4 @@
-def max_number(*args, **kwargs):
+def max_number(*args):
     dict_number = {"min_number": max(args), "max_number": min(args)}
     print(dict_number)
     return dict_number

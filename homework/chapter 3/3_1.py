@@ -4,11 +4,11 @@ name = "posekakaka"
 print(name.strip())
 
 # b.判断变量是否以po开头
-print("po" == name[0:2])
-
+# print("po" == name[0:2])
+print(name.startswith("po"))
 # c.判断变量是否以a结尾
-print("a" == name[-1])
-
+# print("a" == name[-1])
+print(name.endswith("a"))
 # d.将变量中"k"替换为"c"
 print(name.replace("k", "c"))
 
