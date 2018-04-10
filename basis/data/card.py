@@ -54,6 +54,7 @@ def search_card_by_name():
         tmp_card = card
         tmp_index = card_list.index(tmp_card)
         if tmp_name == card["name"]:
+            print(tmp_index)
             print("名字\t\t电话\t\tQQ\t\t邮箱")
             print("{name}\t{phone}\t{QQ}\t{email}".format(**card))
             # for value in card.values():
@@ -66,8 +67,9 @@ def search_card_by_name():
                 delete_search_card()
             elif choice == "0":
                 main()
-        else:
-            print("没有找到相应的名字")
+    else:
+        print("没有找到相应的名字")
+        main()
 
 
 def update_search_card():
@@ -81,6 +83,7 @@ def update_search_card():
     tmp_card["email"] = email
     card_list[tmp_index] = tmp_card
     print("数据修改成功")
+    print(tmp_index)
     main()
 
 

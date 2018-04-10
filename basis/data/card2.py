@@ -1,4 +1,5 @@
 import re
+
 card_list = []
 
 
@@ -24,21 +25,19 @@ def main():
 
 
 def insert_card():
-    name = input("请输入名字: ")
-    phone = input("请输入电话: ")
-    if is_phone_num(phone):
-        QQ = input("请输入QQ号: ")
-        email = input("请输入邮箱: ")
-        card_list.append({"name": name, "phone": phone, "QQ": QQ, "email": email})
-        print("新建成功")
-        main()
+    card_list.append(input_info())
+    print("新建成功")
+    main()
 
 
 def display_all_card():
-    print("名字\t\t电话\t\tQQ\t\t邮箱")
-    for card in card_list:  # 遍历列表,获取所有字典
-        print("{name}\t{phone}\t{QQ}\t{email}".format(**card))  # 打印字典所有值
-        print()
+    if len(card_list) == 0:
+        print("没有任何数据!!!!!!!!")
+    else:
+        print("名字\t\t电话\t\tQQ\t\t邮箱")
+        for card in card_list:  # 遍历列表,获取所有字典
+            print("{name}\t{phone}\t{QQ}\t{email}".format(**card))  # 打印字典所有值
+            print()
     main()
 
 
@@ -56,31 +55,54 @@ def search_card_by_name():
                 delete_search_card(card)
             elif choice == "0":
                 main()
-        else:
-            print("没有找到相应的名字")
+            else:
+                continue
+    else:
+        print("没有找到相应的名字")
+        main()
 
 
 def update_search_card(card):
-    name = input("请输入名字: ")
-    phone = input("请输入电话: ")
-    QQ = input("请输入QQ号: ")
-    email = input("请输入邮箱: ")
-    card["name"] = name
-    card["phone"] = phone
-    card["QQ"] = QQ
-    card["email"] = email
+    card.update(input_info())
     print("数据修改成功")
     main()
 
-'''
-正则表达模块,判断用户输入是否合法
-'''
-def is_phone_num(num):
-    match_mub = re.findall("^1[34578]\d{9}$", num)
-    if match_mub:
-        return True
-    else:
-        return False
+
+# 获取用户输入,并判断是否非法
+def input_info():
+    name = input("请输入名字: ")
+    while True:
+        match_name = re.findall("^[\\u4e00-\\u9fa5]{2,4}$", name)
+        if match_name:
+            break
+        else:
+            name = input("请输入正确的姓名: ")
+    phone = input("请输入电话: ")
+    while True:
+        match_nub = re.findall("^1[34578]\d{9}$", phone)
+        if match_nub:
+            break
+        else:
+            phone = input("请输入正确的电话: ")
+            continue
+    QQ = input("请输入QQ号: ")
+    while True:
+        match_qq = re.findall("^\d{6,11}$", QQ)
+        if match_qq:
+            break
+        else:
+            QQ = input("请输入正确的QQ号: ")
+            continue
+    email = input("请输入邮箱: ")
+    while True:
+        match_email = re.findall("^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$", email)
+        if match_email:
+            break
+        else:
+            email = input("请输入正确的邮箱地址: ")
+            continue
+    return {"name": name, "phone": phone, "QQ": QQ, "email": email}
+
 
 def delete_search_card(card):
     card_list.remove(card)
@@ -88,4 +110,5 @@ def delete_search_card(card):
     main()
 
 
-main()
+if __name__ == "__main__":
+    main()
