@@ -72,31 +72,27 @@ def update_search_card(card):
 def input_info():
     name = input("请输入名字: ")
     while True:
-        match_name = re.findall("^[\\u4e00-\\u9fa5]{2,4}$", name)
-        if match_name:
+        if re.findall("^[\\u4e00-\\u9fa5]{2,4}$", name):
             break
         else:
             name = input("请输入正确的姓名: ")
     phone = input("请输入电话: ")
     while True:
-        match_nub = re.findall("^1[34578]\d{9}$", phone)
-        if match_nub:
+        if re.findall("^1[34578]\d{9}$", phone):
             break
         else:
             phone = input("请输入正确的电话: ")
             continue
     QQ = input("请输入QQ号: ")
     while True:
-        match_qq = re.findall("^\d{6,11}$", QQ)
-        if match_qq:
+        if re.findall("^\d{6,11}$", QQ):
             break
         else:
             QQ = input("请输入正确的QQ号: ")
             continue
     email = input("请输入邮箱: ")
     while True:
-        match_email = re.findall("^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$", email)
-        if match_email:
+        if re.findall("^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$", email):
             break
         else:
             email = input("请输入正确的邮箱地址: ")

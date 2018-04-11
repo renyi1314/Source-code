@@ -5,11 +5,12 @@ def cp(path):
         while True:
             data = f.read(1024)
             f_bak.write(data)
-            if len(data) == 0:
+            if not data:
                 break
 
 
 path = "E:\githubproject\Source-code\\basis\\file\\test.txt"
-path = path.replace("\\", "/")  # 将字符串中含\的转换为/,避免出现特殊字符转换错误的问题
+# path = path.replace("\\", "/")  # 将字符串中含\的转换为/,避免出现特殊字符转换错误的问题
+# print(path)
 # path = '/'.join(path.split('\\')) #与上方法类似,但是还无法转换特殊字符...
 cp(path)
