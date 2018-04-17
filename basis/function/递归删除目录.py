@@ -11,4 +11,5 @@ def rmdir(dirname):
     os.rmdir(dirname)
 
 
-rmdir("./123")
+# rmdir("./123")
+print(os.__file__)
