@@ -1,6 +1,7 @@
 def debug(func):
     def decorator(*args, **kwargs):
         print("[DEBUG]: enter {}()".format(func.__name__))
+        # print(decorator)
         return func(*args, **kwargs)
     return decorator
 

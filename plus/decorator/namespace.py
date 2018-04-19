@@ -1,21 +1,46 @@
-s = "string in global"
-num = 99
+# def de_fun(old_fun):
+#     print("*************")
+#     print("function is:::",old_fun)
+#     print("*************")
+#     def warps(*args,**kwargs):
+#         print("jiayou")
+#         old_fun(*args,**kwargs)
+#         return old_fun
+#     return warps
+#
+# # @de_fun
+# def fun(a,b):
+#     print(a,b)
+# # print(fun)
+#
+# de_fun(fun("123", "321"))
+# fun("123","321")
+
+def de_fun(old_fun):
+    print("hehe")
+    # print(old_fun)
+    return old_fun
+    # print(*args, **kwargs)
+    # print("gg")
+    # old_fun(*args,**kwargs)
 
 
-def numFunc(a, b):
-    num = 100
-    print("print s in numFunc: ", s)
-
-    def addFunc(a, b):
-        s = "string in addFunc"
-        print("print s in addFunc: ", s)
-        print("print num in addFunc: ", num)
-        print("locals of addFunc: ", locals())
-        return "%d + %d = %d" % (a, b, a + b)
-
-    print("locals of numFunc: ", locals())
-    return addFunc(a, b)
-
-
-numFunc(3, 6)
-print("globals: ", globals())
+@de_fun
+def fun(a, b):
+    print(a, b)
+    pass
+#
+fun("123", "321")
+print(fun)
+# # de_fun(fun("123","321"))
+#
+# def fn1(*args):
+#     print(args)
+#
+# def fn2(a):
+#     pass
+#
+# fn1(fn2(123))
+#
+#
+# print()

@@ -1,29 +1,9 @@
-# import sys
-# print(sys.path)
-# # sys.path.append("E:/")
-# # print(sys.path)
-#
-def outer():
-    a_var = '闭包里的值'
-    x = 1
+import sys
+mod_path = ["E:\githubproject\Source-code\plus\decorator"]
+print(sys.path)
+sys.path.extend(mod_path)
+print(sys.path)
 
-    def inner():
-        x = 1
-        x = x + 1
-        a_var = '局部空间的值'
-        print(a_var, x)
+import decorator2
 
-    inner()
-
-
-outer()
-
-x = 1
-
-
-def change():
-    x = x + 1
-    # print(b)
-
-
-change()
+decorator2.Foo()
