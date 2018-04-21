@@ -1,8 +1,9 @@
-def fn(*args, **kwargs):
-    print(args)
-    print(kwargs)
+import random
 
+card_type = ['梅花', '红桃', '黑桃', '方片']
+card_number = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
 
-a = (1, 2, 3,)
-b = {"name": "renyi", "age": 27}
-fn(a, **b)
+cards = [j + i for i in card_number for j in card_type]
+
+random.shuffle(cards)
+print(cards)

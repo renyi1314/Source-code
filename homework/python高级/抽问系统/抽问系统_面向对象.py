@@ -2,7 +2,6 @@ import random
 import datetime
 
 
-# 提问的数目
 
 class ChoiceStudentQuestion:
 
