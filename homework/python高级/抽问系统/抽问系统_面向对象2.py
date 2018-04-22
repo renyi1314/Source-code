@@ -2,13 +2,22 @@ import random
 import datetime
 
 
+class GetConfig:
+    with open("systemconfig", "r", encoding="utf-8") as f:
+        dict_settings = {key.split("=")[0]: key.split("=")[1].strip("\" \n") for key in f if
+                         not key.startswith("#")}
+    num_student = int(dict_settings["num_student"])
+    max_questions = int(dict_settings["max_questions"])
+    max_deep_file = int(dict_settings["max_deep_file"])
+
+
 class Students:
     def __init__(self):
         self.students = []
 
     def get_students(self):
         with open("student.txt", mode="r", encoding="utf-8") as f:
-            self.students = [item.strip().strip("\n") for item in f.readlines()]
+            self.students = [item.strip("\n") for item in f if item.strip("\n")]
             while '' in self.students:
                 self.students.remove('')
             return self.students
@@ -17,6 +26,8 @@ class Students:
 class Questions:
     def __init__(self):
         self.questions = []
+        self.max_questions = GetConfig.max_questions
+        self.max_deep_file = GetConfig.max_deep_file
 
     def get_questions(self):
         i = 0
@@ -24,7 +35,7 @@ class Questions:
             try:
                 with open((str(datetime.date.today() + datetime.timedelta(days=i)) + ".txt"), mode="r",
                           encoding="utf-8") as f:
-                    question = [item.strip().strip("\n") for item in f.readlines()]
+                    question = [item.strip(" \n") for item in f if item.strip(" \n")]
             except FileNotFoundError:
                 continue
             else:
@@ -33,10 +44,10 @@ class Questions:
                     self.questions.remove('')
             finally:
                 i -= 1
-                if len(self.questions) > 10:
-                    self.questions = self.questions[0:10]
+                if len(self.questions) > self.max_questions:
+                    self.questions = self.questions[0:self.max_questions]
                     break
-                if i < -4:
+                if i < -(self.max_deep_file - 1):
                     break
 
         return self.questions
@@ -45,7 +56,7 @@ class Questions:
 class ChoiceStudentQuestion:
 
     def __init__(self):
-        self.num_questions = 5
+        self.num_questions = GetConfig.num_student
 
     @staticmethod
     def random_students(students):
@@ -65,6 +76,7 @@ class ChoiceStudentQuestion:
             print(self.random_students(students))
 
 
+a = GetConfig()
 a = Students()
 students_ydm = a.get_students()
 b = Questions()

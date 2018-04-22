@@ -2,7 +2,6 @@ import random
 import datetime
 
 
-
 class ChoiceStudentQuestion:
 
     def __init__(self):
@@ -12,9 +11,7 @@ class ChoiceStudentQuestion:
 
     def get_students(self):
         with open("student.txt", mode="r", encoding="utf-8") as f:
-            self.students = [item.strip().strip("\n") for item in f.readlines()]
-            while '' in self.students:
-                self.students.remove('')
+            self.students = [item.strip(" \n") for item in f.readlines() if item.strip(" \n")]
             return self.students
 
     def random_students(self):
@@ -26,13 +23,11 @@ class ChoiceStudentQuestion:
             try:
                 with open((str(datetime.date.today() + datetime.timedelta(days=i)) + ".txt"), mode="r",
                           encoding="utf-8") as f:
-                    question = [item.strip().strip("\n") for item in f.readlines()]
+                    question = [item.strip(" \n") for item in f if item.strip(" \n")]
             except FileNotFoundError:
                 continue
             else:
                 self.questions.extend(question)
-                while '' in self.questions:
-                    self.questions.remove('')
             finally:
                 i -= 1
                 if len(self.questions) > 10:

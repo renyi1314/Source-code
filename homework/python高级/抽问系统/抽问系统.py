@@ -5,11 +5,13 @@ import datetime
 num_questions = 5
 
 
+def get_config():
+    with open("systemconfig", "r", encoding="utf-8") as f:
+        dict_settings = {key.split("=")[0]: key.split("=")[1].strip("\" \n") for key in f if not key.startswith("#")}
+
 def get_students():
     with open("student.txt", mode="r", encoding="utf-8") as f:
-        students = [item.strip().strip("\n") for item in f.readlines()]
-        while '' in students:
-            students.remove('')
+        students = [item.strip(" \n") for item in f if item.strip("\n")]
         return students
 
 
@@ -24,13 +26,11 @@ def get_questions():
         try:
             with open((str(datetime.date.today() + datetime.timedelta(days=i)) + ".txt"), mode="r",
                       encoding="utf-8") as f:
-                question = [item.strip().strip("\n") for item in f.readlines()]
+                question = [item.strip(" \n") for item in f.readlines() if item.strip(" \n")]
         except FileNotFoundError:
             continue
         else:
             questions.extend(question)
-            while '' in questions:
-                questions.remove('')
         finally:
             i -= 1
             if len(questions) > 10:
