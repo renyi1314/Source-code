@@ -4,10 +4,16 @@ import datetime
 
 class ChoiceStudentQuestion:
 
+
     def __init__(self):
         self.questions = []
         self.students = []
-        self.num_questions = 5
+        with open("systemconfig2", "r", encoding="utf-8") as f:
+            dict_settings = {key.split("=")[0]: key.split("=")[1].strip("\" \n") for key in f if
+                         not key.startswith("#")}
+        self.num_student = int(dict_settings["num_student"])
+        self.max_questions = int(dict_settings["max_questions"])
+        self.max_deep_file = int(dict_settings["max_deep_file"])
 
     def get_students(self):
         with open("student.txt", mode="r", encoding="utf-8") as f:

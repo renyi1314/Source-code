@@ -1,5 +1,5 @@
 # 抽问问题数
-num_student=5
+num_student=10
 # 最大问题数
 max_questions=10
 # 文件深度(最多往前查找几天的数据)

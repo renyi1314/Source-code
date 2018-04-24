@@ -6,7 +6,7 @@ num_questions = 5
 
 
 def get_config():
-    with open("systemconfig", "r", encoding="utf-8") as f:
+    with open("systemconfig2", "r", encoding="utf-8") as f:
         dict_settings = {key.split("=")[0]: key.split("=")[1].strip("\" \n") for key in f if not key.startswith("#")}
 
 def get_students():

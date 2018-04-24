@@ -1,46 +1,13 @@
 import random
 import datetime
-import os
-import sys
-
-
-class ConfigurationFileError(Exception):
-    def __init__(self, msg):
-        self.msg = msg
-
-    def __str__(self):
-        return self.msg
 
 
 class GetConfig:
-    # 读取配置文件,并放入字典
-    if not os.path.exists("systemconfig2"):
-        raise ConfigurationFileError("找不到配置文件")
-    else:
-        with open("systemconfig2", "r", encoding="utf-8") as f:
-            dict_settings = {key.split("=")[0]: key.split("=")[1].strip("\" \n") for key in f if
-                             not key.startswith("#")}
-    # 初始化num_student属性
-    try:
-        num_student = int(dict_settings["num_student"])
-    except KeyError:
-        num_student = 5
-    except ValueError:
-        raise ConfigurationFileError("配置文件num_student项数据类型应为整数")
-    # 初始化max_questions属性
-    try:
-        max_questions = int(dict_settings["max_questions"])
-    except KeyError:
-        max_questions = 10
-    except ValueError:
-        raise ConfigurationFileError("配置文件num_student项数据类型应为整数")
-    # 初始化max_deep_file属性
-    try:
-        max_deep_file = int(dict_settings["max_deep_file"])
-    except KeyError:
-        max_deep_file = 5
-    except ValueError:
-        raise ConfigurationFileError("配置文件num_student项数据类型应为整数")
+    with open("systemconfig2", "r", encoding="utf-8") as f:
+        dict_settings = {key.split("=")[0]: key.split("=")[1].strip("\" \n") for key in f if not key.startswith("#")}
+    num_student = int(dict_settings["num_student"])
+    max_questions = int(dict_settings["max_questions"])
+    max_deep_file = int(dict_settings["max_deep_file"])
 
 
 class Students:
@@ -104,7 +71,6 @@ class ChoiceStudentQuestion:
             print(self.random_students(students))
 
 
-a = GetConfig()
 a = Students()
 students_ydm = a.get_students()
 b = Questions()
