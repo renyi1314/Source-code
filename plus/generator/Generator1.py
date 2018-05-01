@@ -13,8 +13,6 @@ def producer(gen, n):
     while x < n:
         x += 1
         print('Produce %s' % x)
-        last = gen.send(x)
-        # print()
     gen.close()
 
 
