@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js实现加减乘除</title>
+</head>
+<body background="./123.jpg">
+<script>function MyFunction() {
+    console.log();
+    var sum = "Undefined";
+    var numA = parseInt(document.getElementById("numA").value);
+    var numB = parseInt(document.getElementById("numB").value);
+    var ope = document.getElementById("demo").value;
+    if (ope === "add") {
+        sum = numA + numB
+    } 
+    else if (ope === "sub") {
+        sum = numA - numB
+    }
+    else if (ope === "mul") {
+        sum = numA * numB
+    }
+    else if (ope === "exc") {
+        sum = numA / numB
+    }
+    document.getElementById("demo2").innerHTML = "结果是: " + sum;
+}</script>
+<p>欢迎来到源码时代会所!!!!</p>
+<p>和我一起学数学吧!!</p>
+<input id="numA" type="text" placeholder="请输入数字A">
+<select id="demo">
+    <option value="add">加</option>
+    <option value="sub">减</option>
+    <option value="mul">乘</option>
+    <option value="exc">除</option>
+</select>
+<input id="numB" type="text" placeholder="请输入数字B">
+<button type="button" onclick=MyFunction()>点这里</button>
+<p id="demo2">结果是:</p>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<!--<span>另外,黄欢我爱你</span>-->
+</body>
+</html>
