@@ -1,0 +1,20 @@
+---
+- hosts: 192.168.133.135
+  sudo: yes
+  tasks:
+    - name: install apache
+      yum: name={{ item }} state=present
+      with_items:
+       - httpd
+       - httpd-devel
+    - name : copyconfigurefile
+      copy:
+        src: "{{ item.src }}"
+        dest: "{{ item.dest }}"
+        owner: root
+        group: root
+        mode: 0644
+      with_items:
+          - {src: "/tmp/httpd.conf",dest: "/etc/httpd/conf/httpd.conf"}
+    - name : check apache
+      service: name=httpd state=started enabled=yes
