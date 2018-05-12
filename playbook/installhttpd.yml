@@ -10,11 +10,11 @@
     - name : copyconfigurefile
       copy:
         src: "{{ item.src }}"
-        dest: "{{ item.dest }}"
+        dest: "{{ item.destination }}"
         owner: root
         group: root
         mode: 0644
       with_items:
-          - {src: "/tmp/httpd.conf",dest: "/etc/httpd/conf/httpd.conf"}
+          - {src: "/tmp/httpd.conf",destination: "/etc/httpd/conf/httpd.conf"}
     - name : check apache
       service: name=httpd state=started enabled=yes
