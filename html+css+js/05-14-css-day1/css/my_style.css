@@ -1,0 +1,19 @@
+.font{
+    color: #ff0000;
+    text-decoration: blink;
+    font: oblique small-caps bold 100px "宋体";
+}
+
+.div3{
+    width: 500px;
+    /*line-height: 500px;*/
+    min-height: 500px;
+    background: greenyellow url(../images/123.png) scroll;
+    margin: auto;
+}
+
+.div4{
+    width: 500px;
+    height: 500px;
+    background: #c063ff;
+}
