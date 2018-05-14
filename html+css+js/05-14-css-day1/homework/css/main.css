@@ -7,6 +7,27 @@
 .title{
     font: normal normal normal 18px "" ;
     line-height: 36px;
-    text-indent: 28px;
-    background: url(../images/bg.gif) no-repeat;
+    background: #fff180;
+    /*text-indent: 28px;*/
+    /*background: url(../images/bg.gif) no-repeat left 50% ;*/
+    margin: 0px;
+}
+.good{
+    /*color: #f6f6f6 ;*/
+    text-indent: 12px;
+    list-style-type:none;
+    /*padding-left: 6px;*/
+}
+.good::before{
+    content: "★";
+    color: #ff0000;
+    size: 12px;
+}
+.link{
+    padding-left: 6px;
+}
+.ul_good{
+    padding-left: 0px;
+    margin: 0px;
+    color: burlywood;
 }
