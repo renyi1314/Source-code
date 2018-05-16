@@ -1,0 +1,9 @@
+---
+  - hosts: localhost
+    sudo: yes
+    tasks:
+        - name: disable selinux
+          lineinfile:
+              path: /etc/selinux/config.bak
+              regexp: '^SELINUX='
+              line: 'SELINUX=enforcing'

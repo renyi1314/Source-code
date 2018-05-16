@@ -1,0 +1,19 @@
+---
+- hosts: 192.168.133.135
+  sudo: yes
+  tasks:
+     - name: mkdir_mysql
+       command: "mkdir -p /opt/mysql"
+     - name: copy_mysql_files
+       copy:
+         src: "/root/mysql/mysql-5.7.20-1.el7.x86_64.rpm-bundle.tar"
+         dest: "/opt/mysql/mysql-5.7.20-1.el7.x86_64.rpm-bundle.tar"
+#     - name: install_depend_commpents
+     - name: mkdir_files
+       command: "mkdir /opt/mysql/files"
+     - name: tar mysql.tar
+       command: "tar -xvf /opt/mysql/mysql-5.7.20-1.el7.x86_64.rpm-bundle.tar -C /opt/mysql/files"
+     - name: uninstall_mysql_libs
+       shell: "rpm -qa | grep mysql |xargs -n 1 rpm -e --nodeps"
+#     - name: install_mysql
+#       command

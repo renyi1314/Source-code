@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  sudo: yes
+  tasks:
+      - name: create_database_test
+        mysql_db:
+            login_host: "localhost"
+            login_user: "root"
+            login_password: "Tansun@123456"
+            login_port: "3306"
+            name: "test"
+            encoding: "utf8"
+            state: "present"
