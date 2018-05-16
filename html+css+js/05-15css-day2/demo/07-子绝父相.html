@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*
+			 * 子绝父相：
+			 * 		子元素是绝对定位，父元素是相对定位，可以让子元素定位时以父元素为边界
+			 * 
+			 * 绝对定位的边界：
+			 * 		1. 只设置子元素为绝对定位，如果所有的父元素都没有设置定位模式（相对定位、绝对定位、固定定位），以浏览器为边界进行定位
+			 * 		2. 如果有父元素设置了定位模式，子元素会以父元素的边框为边界
+			 */
+			section{
+				width:400px;
+				height:300px;
+				background:#ccc;
+				margin:50px auto;
+				position:relative;
+			}
+			
+			div{
+				width:100px;
+				height:80px;
+				background:#f00;
+				border:2px solid #ff0;
+			}
+			
+			#box2{
+				position:absolute;
+				top:50px;
+				left:50px;
+			}
+		</style>
+	</head>
+	<body>
+		<section>
+			<div id="box1">box1</div>
+			<div id="box2">box2</div>
+			<div id="box3">box3</div>
+		</section>
+	</body>
+</html>

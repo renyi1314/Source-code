@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*
+			 * 浮动样式：
+			 * 		1. float
+			 * 			float: none | left  | right
+			 * 			左浮动： float:left;
+			 * 			右浮动： float:right;
+			 * 
+			 * 		注意： 浮动可以让盒子脱离普通文本流，上移一层，父元素相当于没有该元素的存在。
+			 */
+			section{
+				background:#00f;
+				border:2px solid #f0f;
+			}
+			
+			div{
+				width:300px;
+				height:100px;
+				border:2px solid #000;
+				margin:10px 0;
+			}
+			
+			#box1{
+				float:left;
+				background:#f00;
+			}
+			
+			#box2{
+				float:right;
+				background:#ff0;
+				width:400px;
+			}
+		</style>
+	</head>
+	<body>
+		<section>
+			<div id="box1">盒子1</div>
+			<div id="box2">盒子2</div>
+		</section>
+	</body>
+</html>

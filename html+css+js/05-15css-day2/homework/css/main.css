@@ -1,0 +1,43 @@
+div{
+    display: block;
+}
+.g-header{
+    position: fixed;
+}
+.youku-log{
+    position: relative;
+    float: left;
+    margin-right: 90px;
+    padding-left: 20px;
+    height: 50px;
+    background: #ffffff;
+    min-width: 145px;
+
+}
+
+.g-view{
+    float: left;
+}
+.g-head-nav{
+    float: left;
+    width: 315px;
+    margin-right: 37px  ;
+}
+.login-before{
+    float: left;
+    width: 237px;
+}
+.g-so{
+    float: left;
+    width: 450px;
+}
+.clear{
+    clear: both;
+}
+/*ul{*/
+    /*display: block;*/
+    /*list-style-type: disc;*/
+/*}*/
+li{
+    display: inline;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			header{
+				width:1000px;
+				border:2px solid #0aa;
+				height:100px;
+				text-align:center;
+				font:20px/2em 微软雅黑;
+				background:#0ff;
+				margin:10px auto;
+			}
+			
+			nav{
+				width:1000px;
+				border:2px solid #0aa;
+				height:40px;
+				text-align:center;
+				font:20px/2em 微软雅黑;
+				background:#0ff;
+				margin:10px auto;
+			}
+			
+			section{
+				width:1004px;
+				text-align:center;
+				font:20px/2em 微软雅黑;
+				margin:10px auto;
+				overflow:hidden; /* 清除浮动造成的影响*/
+			}
+			
+			section>*{
+				background:#0ff;
+				border:2px solid #0aa;
+				height:200px;
+			}
+			
+			section #left{
+				width:200px;
+				float:left;
+				margin-right:12px;
+			}
+			section #main{
+				width:568px;
+				float:left;
+			}
+			section #right{
+				width:200px;
+				float:right;
+			}
+			
+			footer{
+				width:1000px;
+				border:2px solid #0aa;
+				height:100px;
+				text-align:center;
+				font:20px/2em 微软雅黑;
+				background:#0ff;
+				margin:10px auto;
+			}
+		</style>
+	</head>
+	<body>
+		<header>头部</header>
+		<nav>导航栏</nav>
+		<section>
+			<aside id="left">左边栏</aside>
+			<div id="main">中间主要栏目</div>
+			<aside id="right">右边栏</aside>
+		</section>
+		<footer>尾部</footer>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>float属性</title>
+		<style type="text/css">
+			html,
+			body {
+				background: #ff9;
+			}
+			
+			div {
+				margin: 10px;
+				border: 1px dashed #333;
+				background: #90baff;
+				padding: 12px;
+			}
+			
+			p {
+				clear:both;
+				border: 1px dashed #333;
+				background: #ff90ba;
+			}
+			
+			/*
+			*/
+			.box1{float:left;}
+			.box2{float:left;}
+			.box3{float:right;}
+		</style>
+	</head>
+
+	<body>
+		<div style="overflow:hidden;">
+			<div class="box1">Box-1</div>
+			<div class="box2">Box-2</div>
+			<div class="box3">Box-3<br/>Box-3<br/>Box-3</div>
+		</div>
+		<p>这里是浮动的外围文字，这里是浮动的外围文字，这里是浮动的外围文字，这里是浮动的外围文字，这里是浮动的外围文字，这里是浮动的外围文字，这里是浮动的外围文字，这里是浮动的外围文字</p>
+	</body>
+
+</html>

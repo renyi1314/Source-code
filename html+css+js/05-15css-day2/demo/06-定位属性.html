@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*
+			 * 定位属性：
+			 * 		1. position 定位
+			 * 			position: static | relative | absolute | fixed
+			 * 				static 	静态定位（默认值）
+			 * 				relative 	相对定位
+			 * 					将盒子设置相对定位后，保留盒子原来的尺寸和位置，可以使用位置控制属性进行相对偏移
+			 * 
+			 * 				absolute 	绝对定位
+			 * 					将盒子设置绝对定位后，完全脱离原来的文本流，可以在页面上任意定位置，可以定层次
+			 * 
+			 * 				fixed 		固定定位
+			 * 					将盒子设置固定定位后，效果同上，拉动滚动条时固定定位的盒子不动
+			 * 
+			 * 		2. z-index 层级
+			 * 			绝对定位和固定定位会有层次
+			 * 			z-index:数字;
+			 * 			注意：层级相同的情况下，后面的盒子会盖住前边的盒子
+			 * 
+			 * 		3. 位置控制 left right top bottom
+			 * 			left: 绝对值 | 百分比
+			 * 			right: 绝对值 | 百分比
+			 * 			top: 绝对值 | 百分比
+			 * 			bottom: 绝对值 | 百分比
+			 */
+			div{
+				width:300px;
+				height:100px;
+				background:#f00;
+				border:4px solid #ff0;
+			}
+			
+			#box1{
+				position:fixed;
+				right:10px;
+				bottom:10px;
+			}
+			
+			#box2{
+				/*
+				position:relative; 相对定位
+				left:100px;
+				top:-50px;
+				*/
+				position:absolute;
+				top:50px;
+				right:50px;
+				z-index:99999999;
+			}
+			
+			#box3{
+				position:absolute;
+				top:0;
+				right:0;
+				background:#00f;
+				z-index:99999999999;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box1">盒子1</div>
+		<div id="box2">盒子2</div>
+		<div id="box3">盒子3</div>
+		
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+		<h1>11111</h1>
+	</body>
+</html>

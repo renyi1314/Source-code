@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*
+			 * 浮动的相关属性：
+			 * 		1. clear 清除浮动
+			 * 			清除浮动造成的影响
+			 * 			clear:left | right | both
+			 * 
+			 * 			在浮动的后面添加一个标签，专用于清除浮动。
+			 * 
+			 * 		2. overflow 超出处理
+			 * 			overflow: visible | scroll | hidden
+			 * 				visible 默认属性，超出默认显示
+			 * 				scroll 	内容超出时出现滚动条
+			 * 				hidden 	超出部分隐藏
+			 * 
+			 * 		3. display 隐藏或显示标签，以及以什么形式显示标签
+			 * 			display: none | inline | block  |  inline-block
+			 * 				none 	隐藏元素
+			 * 				inline 	以行内元素显示标签，与其它元素共享一行，不具备完整的盒子模型
+			 * 				block 	以块元素显示
+			 * 				inline-block 以行内块显示，又是行内元素不会独占一行，但是又具备完整的盒子模型
+			 * 				
+			 * 
+			 * 	清除浮动造成的影响：
+			 * 		办法一： 在浮动的后边创建一个空盒子，专门用于清除浮动
+			 * 		办法二： 在父容器后边添加一个伪元素，给伪元素设置 clear属性，清除浮动
+			 * 		办法三： 在父容器中设置 overflow:hidden 超出部分隐藏，实现清除浮动造成的影响
+			 */
+			section{
+				background:#00f;
+				border:2px solid #f0f;
+			}
+			
+			div{
+				width:300px;
+				height:100px;
+				border:2px solid #000;
+				margin:10px 0;
+			}
+			
+			#box1{
+				float:left;
+				background:#f00;
+				overflow:hidden;
+			}
+			
+			#box2{
+				float:right;
+				background:#ff0;
+				width:400px;
+				height:150px;
+				display:block;
+			}
+			/*清除浮动的办法一
+			#box3{
+				clear:both;
+				height:1px;
+				border:0;
+			}
+			*/
+			
+			/* 清除浮动的办法二 
+			section::after{
+				content:"\20";
+				display:block;
+				clear:both;
+			}
+			*/
+			
+			/* 清除浮动办法三 */
+			section{
+				/*height:200px;*/
+				overflow:hidden;
+			}
+			
+			p{
+				/*
+				display:inline;
+				*/
+			}
+		</style>
+	</head>
+	<body>
+		<section>
+			<div id="box1">盒子1<br/>盒子1<br/>盒子1<br/>盒子1<br/>盒子1<br/>盒子1<br/>盒子1<br/>盒子1</div>
+			<div id="box2">盒子2</div>
+			<!--
+			<div id="box3"></div>
+			-->
+		</section>
+		<p>只要设置了浮动，盒子将脱离普通文本流，下方的内容会自动上移。解决的办法是：使用clear属性清除浮动带来的效果。只要设置了浮动，盒子将脱离普通文本流，下方的内容会自动上移。解决的办法是：使用clear属性清除浮动带来的效果。只要设置了浮动，盒子将脱离普通文本流，下方的内容会自动上移。解决的办法是：使用clear属性清除浮动带来的效果。只要设置了浮动，盒子将脱离普通文本流，下方的内容会自动上移。解决的办法是：使用clear属性清除浮动带来的效果。</p>
+		<p>只要设置了浮动，盒子将脱离普通文本流，下方的内容会自动上移。解决的办法是：使用clear属性清除浮动带来的效果。只要设置了浮动，盒子将脱离普通文本流，下方的内容会自动上移。解决的办法是：使用clear属性清除浮动带来的效果。只要设置了浮动，盒子将脱离普通文本流，下方的内容会自动上移。解决的办法是：使用clear属性清除浮动带来的效果。只要设置了浮动，盒子将脱离普通文本流，下方的内容会自动上移。解决的办法是：使用clear属性清除浮动带来的效果。</p>
+  		<p>只要设置了浮动</p>
+		<p>只要设置了浮动</p>
+		<p>只要设置了浮动</p>
+	</body>
+</html>
