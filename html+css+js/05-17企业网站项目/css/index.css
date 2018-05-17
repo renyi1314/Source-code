@@ -1,0 +1,274 @@
+/*公共样式*/
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, li, form, table {
+    margin: 0;
+    padding: 0;
+}
+
+header, h2, .capture, .project1 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both
+}
+
+/*头部样式*/
+.header_index {
+    background: #d43b33;
+    height: 74px;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+    display: block;
+}
+
+nav > a {
+    color: #ffffff;
+    font: 14px/74px "微软雅黑";
+    list-style: none;
+    display: inline-block;
+    margin: auto 14px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background: url("../images/nav_bg.png") no-repeat bottom center;
+}
+
+/*banner和正文样式*/
+.banner {
+    height: 278px;
+    background: #333333 url("../images/banner.jpg") no-repeat center bottom;
+}
+
+.about_index {
+    padding: 40px 0;
+}
+
+.about_index h2 {
+    height: 46px;
+    text-align: center;
+    border-bottom: 1px solid #999999;
+    font: 20px/1.5em 微软雅黑;
+}
+
+.about_index h2 span {
+    background: #fff;
+    display: inline-block;
+    padding: 0 30px
+}
+
+.about_index h2 span strong {
+    display: block;
+    color: #ff0000
+}
+
+.about_index article {
+    padding-top: 40px;
+    text-align: center;
+    font: 12px/2em 微软雅黑;
+    color: #666;
+}
+
+.about_index h5 {
+    padding-bottom: 50px
+}
+
+.about_index .more {
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 6px 16px;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/*企业文化*/
+.capture h3 {
+    height: 30px;
+    font: 14px/2em 微软雅黑;
+    text-align: center;
+    border-bottom: 1px solid #666666;
+}
+
+.capture h3 p {
+    height: 29px;
+    display: inline-block;
+    padding: 0 10px;
+    border: 1px solid #666666;
+    background: #626262;
+    color: #ffffff;
+}
+
+.capture h3 p:hover {
+    cursor: pointer;
+    height: 30px;
+    background: #ffffff;
+    border-bottom: none;
+    color: #ff0000;
+
+}
+
+.capture div {
+    width: 800px;
+    margin: 40px auto;
+}
+
+.capture div img {
+    float: left;
+    margin-right: 40px;
+}
+
+.capture div p {
+    font: 12px/2em "微软雅黑";
+    color: #666666;
+}
+
+/*项目详情*/
+.project_bg {
+    height: 340px;
+    background: url("../images/project_bg.png");
+}
+
+.project1 > p {
+    text-align: center;
+    font: 20px/1.5em "微软雅黑";
+    padding: 40px 0 30px;
+}
+
+/*新闻及留言*/
+.clear {
+    clear: both;
+}
+
+.news_msg {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.news_msg .news {
+    float: left;
+    width: 470px;
+}
+
+.news_msg .news p {
+    padding: 20px 0;
+    font: 20px "微软雅黑";
+}
+
+.news_msg .news p span {
+    color: #ff0000;
+}
+
+.news_msg .news ul li {
+    padding: 10px 0;
+    list-style: none;
+    border-bottom: 1px dashed #ccc;
+}
+
+.news_msg .news ul span {
+    color: #666666;
+    display: block;
+    float: right;
+}
+
+.news_msg .news a {
+    display: block;
+    padding: 10px 0;
+}
+
+.news_msg .news a:hover {
+    color: #ff0000;
+}
+
+.news_msg .msg {
+    width: 480px;
+    float: right;
+}
+
+.news_msg .msg > p {
+    padding-top: 20px;;
+    font: 20px "微软雅黑";
+}
+
+.news_msg .msg p span {
+    color: #ff0000;
+}
+
+.news_msg .msg .username, .news_msg .msg .email {
+    margin: 30px 6px 10px 0;
+    padding: 10px 0;
+    width: 200px;
+    height: 20px;
+}
+
+.news_msg .msg .phone {
+    width: 200px;
+    height: 20px;
+    padding: 10px 0;
+    margin: 0px 6px 10px 0;
+}
+
+.news_msg .msg .vcode {
+    width: 100px;
+    height: 20px;
+    margin: 0px 6px 10px 0;
+    padding: 10px 0;
+}
+
+.news_msg img {
+    position: relative;
+    top: 8px;
+}
+
+.news_msg textarea {
+    width: 480px;
+    height: 230px;
+}
+
+.news_msg button {
+    float: right;
+}
+
+/*尾部*/
+
+.footer_bg {
+    margin-top: 100px;
+    height: 500px;
+    background: url("../images/footer_bg.png");
+}
+
+.footer_bg footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.footer_bg .footer_logo {
+    padding: 100px 0 100px 40px;
+    float: left;
+    width: 220px;
+}
+.footer_bg .contact{
+    color: #ffffff;
+}
+
+.footer_bg .work{
+;
+    font: 20px 微软雅黑;
+    padding: 100px 0 10px;
+}
+.footer_bg .phone,.footer_bg .address{
+    font: 16px 微软雅黑;
+    padding: 0 0 6px;
+}
+.footer_bg .msg{
+    color: #666666;
+    font: 16px 微软雅黑;
+    padding-top: 80px;
+}
