@@ -66,7 +66,7 @@ nav > a:hover {
 
 .about_index h2 span strong {
     display: block;
-    color: #ff0000
+    color: #d43b33;
 }
 
 .about_index article {
@@ -160,16 +160,18 @@ nav > a:hover {
 .news_msg .news p {
     padding: 20px 0;
     font: 20px "微软雅黑";
+    color: #333;
 }
 
 .news_msg .news p span {
-    color: #ff0000;
+    color: #d43b33;
 }
 
 .news_msg .news ul li {
     padding: 10px 0;
     list-style: none;
     border-bottom: 1px dashed #ccc;
+    color: #7B7C7E;
 }
 
 .news_msg .news ul span {
@@ -195,10 +197,11 @@ nav > a:hover {
 .news_msg .msg > p {
     padding-top: 20px;;
     font: 20px "微软雅黑";
+    color: #333;
 }
 
 .news_msg .msg p span {
-    color: #ff0000;
+    color: #d43b33;
 }
 
 .news_msg .msg .username, .news_msg .msg .email {
@@ -254,21 +257,95 @@ nav > a:hover {
     float: left;
     width: 220px;
 }
-.footer_bg .contact{
+
+.footer_bg .contact {
     color: #ffffff;
 }
 
-.footer_bg .work{
-;
+.footer_bg .work {;
     font: 20px 微软雅黑;
     padding: 100px 0 10px;
 }
-.footer_bg .phone,.footer_bg .address{
+
+.footer_bg .phone, .footer_bg .address {
     font: 16px 微软雅黑;
     padding: 0 0 6px;
 }
-.footer_bg .msg{
+
+.footer_bg .msg {
     color: #666666;
     font: 16px 微软雅黑;
     padding-top: 80px;
+}
+
+/*新闻页css*/
+.news_list {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.news_list .nav_news {
+    text-align: center;
+    font: bold 16px/2em "微软雅黑";
+    padding: 40px 0;
+}
+
+.news_list .catgetory {
+    text-align: center;
+}
+
+.news_list .catgetory p {
+    display: inline-block;
+    padding: 10px 100px;
+
+}
+
+.news_list .catgetory p:hover {
+    color: #d43b33;
+}
+
+.news_list .catgetory .on {
+    border: solid #d43b33;
+}
+
+.news_list .news_content ul li {
+    float: left;
+    width: 480px;
+    height: 200px;
+    list-style: none;
+    margin: 20px 20px 0 0;
+    background: #F2F2F2;
+    color: #7B7C7E;
+}
+
+.news_list .news_content ul li img {
+    float: left;
+    padding-right: 30px;
+
+}
+
+.news_list .news_content ul li .box1 {
+    font: 20px 微软雅黑;
+    padding-top: 20px;
+
+}
+
+.news_list .news_content ul li .box2 {
+    font: 12px 微软雅黑;
+    padding: 10px 0 0 0;
+}
+
+.news_list .news_content ul li .box3 {
+    font: 12px 微软雅黑;
+    padding: 40px 0 0 0;
+    text-indent: 24px;
+}
+
+.news_list .news_content .page > a {
+    margin: 10px 0 0 0;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #999999;
+    padding: 10px 10px 0 10px;
 }
