@@ -5,14 +5,17 @@
     <title>for循环</title>
 </head>
 <body>
-<script>
-    var sum = 0
-    for (var i = 0; i < 100; i++) {
-        if ((i % 3 == 0) && (i % 5 == 0))
-            // sum = sum + i;
-        console.log(i)
+<script>function add(num) {
+    var sum = 0;
+    for (var i = 0; i < num; i++) {
+        if ((i % 3 === 0) && (i % 5 === 0))
+            sum += i;
     }
+    return sum
+}
 
+console.log(add(100))
 </script>
+
 </body>
 </html>
