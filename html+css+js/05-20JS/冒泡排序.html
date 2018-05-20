@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>冒泡排序</title>
+</head>
+<body>
+<div>123</div>
+<script>
+    var arr = [];
+    for (var i = 0; i < 10; i++) {
+        arr[i] = Math.floor(Math.random() * 99)
+    }
+    console.log(arr);
+    console.log("sorted")
+    console.log(arr.sort())
+
+    for (var i = 0; i < arr.length; i++) {
+        for (var j = i; j < arr.length; j++) {
+            if (arr[i] > arr[j]) {
+                var tmp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = tmp;
+
+            }
+
+        }
+        console.log("正在排序");
+        console.log(arr)
+
+    }
+
+    console.log(arr)
+</script>
+</body>
+</html>
