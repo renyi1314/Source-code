@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1-100被3整除的数</title>
+</head>
+<body>
+<script>
+    function fn() {
+        var num = [];
+        for (var i = 0; i <= 100; i++) {
+            if (i % 3 === 0) {
+                num.push(i)
+            }
+        }
+        return num
+    }
+
+    console.log(fn())
+</script>
+</body>
+</html>

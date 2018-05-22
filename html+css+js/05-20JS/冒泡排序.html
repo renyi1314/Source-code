@@ -8,22 +8,20 @@
 <div>123</div>
 <script>
     var arr = [];
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < 1000; i++) {
         arr[i] = Math.floor(Math.random() * 99)
     }
     console.log(arr);
-    console.log("sorted")
-    console.log(arr.sort())
+    console.log("sorted");
+    console.log(arr.sort());
 
-    for (var i = 0; i < arr.length; i++) {
-        for (var j = i; j < arr.length; j++) {
-            if (arr[i] > arr[j]) {
-                var tmp = arr[i];
-                arr[i] = arr[j];
+    for (var k = 0; k < arr.length; k++) {
+        for (var j = k; j < arr.length; j++) {
+            if (arr[k] > arr[j]) {
+                var tmp = arr[k];
+                arr[k] = arr[j];
                 arr[j] = tmp;
-
             }
-
         }
         console.log("正在排序");
         console.log(arr)

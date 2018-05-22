@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建对象</title>
+</head>
+<body>
+<script>
+    class Car {
+        constructor(color, price, brands) {
+            this.color = color;
+            this.price = price;
+            this.brands = brands;
+        }
+
+        displayColor() {
+            console.log(this.color)
+        }
+
+        displayPrice() {
+            console.log(this.price)
+        }
+
+        displayBrands() {
+            console.log(this.brands)
+        }
+    }
+
+    benz = new Car("red", 20000, "Mercedes-Benz");
+    benz.displayColor();
+    benz.displayPrice();
+    benz.displayBrands();
+</script>
+<script>
+    function Car2(color, price, brands) {
+        this.color = color;
+        this.price = price;
+        this.brands = brands;
+        this.displayColor = function () {
+            console.log(this.color)
+        };
+        this.displayPrice = function () {
+            console.log(this.price)
+        };
+        this.displayBrands = function () {
+            console.log(this.brands)
+        };
+    }
+
+    benz = new Car2("red", 20000, "Mercedes-Benz");
+    benz.displayColor();
+    benz.displayPrice();
+    benz.displayBrands();
+</script>
+</body>
+</html>

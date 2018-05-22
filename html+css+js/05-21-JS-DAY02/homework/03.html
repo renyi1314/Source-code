@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展原型</title>
+</head>
+<body>
+<script>
+
+    Array.prototype.inArray = function () {
+        return this.indexOf("张三") !== -1;
+    };
+    names = ["张三", "李四", "呵呵"];
+    console.log(names.inArray())
+
+
+</script>
+</body>
+</html>

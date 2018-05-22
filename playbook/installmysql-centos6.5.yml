@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.133.135
+- hosts: 172.16.17.253
   sudo: yes
   tasks:
      - name: mkdir_mysql

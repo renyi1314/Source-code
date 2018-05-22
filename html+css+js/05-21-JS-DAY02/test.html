@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+<script>
+    var obj={};
+    console.log(obj);
+    var x=1;
+    console.log(x);
+    console.log(null);
+    console.log(typeof(null));
+    console.log(typeof(obj));
+    var date = new Date();
+    console.log(typeof(date));
+    console.log(date);
+    var b=[1,2,3];
+    console.log(b);
+    console.log(typeof(b));
+    function fn() {}
+    // console.log(fn(),typeof(fn()))
+    console.log(fn);
+    console.log(typeof(fn));
+    console.log("-------------------");
+    class test{
+        myfunction(){
+            console.log(this)
+        }
+    }
+    var my = new test();
+    console.log(my);
+    my.myfunction();
+    console.log("-------------------");
+    console.dir(date)
+</script>
+</body>
+</html>

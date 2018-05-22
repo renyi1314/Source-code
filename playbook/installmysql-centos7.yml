@@ -1,0 +1,24 @@
+---
+- hosts: 172.16.17.253
+  sudo: yes
+  tasks:
+     - name: mkdir_mysql
+       c ommand: "mkdir -p /opt/mysql"
+     - name: copy_mysql_files
+       copy:
+         src: "/root/mysql/mysql-5.7.20-1.el7.x86_64.rpm-bundle.tar"
+         dest: "/opt/mysql/mysql-5.7.20-1.el7.x86_64.rpm-bundle.tar"
+     - name: mkdir_files
+       shell: "mkdir /opt/mysql/files"
+     - name: tar mysql.tar
+       command: "tar -xvf /opt/mysql/mysql-5.7.20-1.el7.x86_64.rpm-bundle.tar -C /opt/mysql/files"
+     - name: uninstall_mysql_libs
+       shell: "rpm -e mariadb-libs-5.5.56-2.el7.x86_64 --nodeps"
+     - name: install_mysql1
+       shell: "rpm -ivh /opt/mysql/files/mysql-community-common-5.7.20-1.el7.x86_64.rpm"
+     - name: install_mysql2
+       shell: "rpm -ivh /opt/mysql/files/mysql-community-libs-5.7.20-1.el7.x86_64.rpm"
+     - name: install_mysql3
+       shell: "rpm -ivh /opt/mysql/files/mysql-community-client-5.7.20-1.el7.x86_64.rpm"
+     - name: install_mysql4
+       shell: "rpm -ivh /opt/mysql/files/mysql-community-server-5.7.20-1.el7.x86_64.rpm"
