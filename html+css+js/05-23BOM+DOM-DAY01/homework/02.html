@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>显示事件</title>
+</head>
+<body>
+<style>
+    .box {
+        background: #00aaaa;
+    }
+
+    .box p {
+        width: 100px;
+        height: 20px;
+        background: #00aa00;
+        display: inline-block;
+    }
+
+    #ul1 {
+        /*display: none;*/
+    }
+
+    #ul2 {
+        display: none;
+    }
+
+    #ul3 {
+        display: none;
+    }
+
+</style>
+<div class="box">
+    <p id="p1">图片</p>
+    <p id="p2">专栏</p>
+    <p id="p3">热点</p>
+    <ul id="ul1">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <ul id="ul2">
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ul>
+    <ul id="ul3">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+</div>
+<script>
+    var ul1 = document.getElementById("ul1");
+    var ul2 = document.getElementById("ul2");
+    var ul3 = document.getElementById("ul3");
+    var p1 = document.getElementById("p1");
+    var p2 = document.getElementById("p2");
+    var p3 = document.getElementById("p3");
+    p1.onclick = function () {
+        ul1.style.display = "block";
+        ul2.style.display = "none";
+        ul3.style.display = "none";
+    };
+    p2.onclick = function () {
+        ul1.style.display = "none";
+        ul2.style.display = "block";
+        ul3.style.display = "none";
+    };
+    p3.onclick = function () {
+        ul1.style.display = "none";
+        ul2.style.display = "none";
+        ul3.style.display = "block";
+    }
+</script>
+</body>
+</html>

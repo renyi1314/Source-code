@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        html, body {
+            margin: 0;
+        }
+
+        #mask {
+            position: fixed;
+            z-index: 8;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            top: 0;
+            left: 0;
+            display: none;
+        }
+
+        #mybox {
+            position: fixed;
+            z-index: 9;
+            width: 400px;
+            height: 200px;
+            background: #fff;
+            left: 50%;
+            top: 50%;
+            margin-left: -200px;
+            margin-top: -100px;
+            display: none;
+        }
+
+        #mybox p {
+            margin: 0;
+            font: 18px/2em 微软雅黑;
+            background: #ccc;
+            text-indent: 1em;
+        }
+
+        #mybox p span {
+            float: right;
+            margin-right: 10px;
+            color: #f00;
+            cursor: pointer;
+        }
+
+        #mybox h1 {
+            text-align: center;
+        }
+
+        #mybox a {
+            display: inline-block;
+            background: #0a0;
+            color: #fff;
+            padding: 6px 14px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        #mybox #cfbtn {
+            margin-left: 120px;
+        }
+    </style>
+</head>
+<body>
+<button type="button" id="btn">点我</button>
+<div id="mask"></div>
+<div id="mybox">
+    <p>警告<span id="closebtn">X</span></p>
+    <h1>你的行为我们记录...</h1>
+    <a href="#" id="cfbtn">确认</a>
+    <a href="#">取消</a>
+</div>
+		<h1>111111</h1>
+		<h1>222222</h1>
+		<h1>333333</h1>
+		<h1>111111</h1>
+		<h1>222222</h1>
+		<h1>333333</h1>
+		<h1>111111</h1>
+		<h1>222222</h1>
+		<h1>333333</h1>
+		<h1>111111</h1>
+		<h1>222222</h1>
+		<h1>333333</h1>
+		<h1>111111</h1>
+		<h1>222222</h1>
+		<h1>333333</h1>
+		<h1>111111</h1>
+		<h1>222222</h1>
+		<h1>333333</h1>
+		<h1>111111</h1>
+		<h1>222222</h1>
+		<h1>333333</h1>
+		<h1>111111</h1>
+		<h1>222222</h1>
+		<h1>333333</h1>
+		<h1>111111</h1>
+		<h1>222222</h1>
+		<h1>333333</h1>
+		<h1>111111</h1>
+		<h1>222222</h1>
+		<h1>333333</h1>
+
+<script>
+    btn.onclick = function () {
+        mask.style.display = 'block';
+        mybox.style.display = 'block';
+    };
+
+    closebtn.onclick = function () {
+        mask.style.display = 'none';
+        mybox.style.display = 'none';
+    };
+    cfbtn.onclick = function () {
+        mask.style.display = 'none';
+        mybox.style.display = 'none';
+    }
+</script>
+</body>
+</html>
