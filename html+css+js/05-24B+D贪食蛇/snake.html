@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			//地图构造器
+			function Map(){
+				this.width=800;
+				this.height=400;
+				this.border='4px solid red';
+				this.bgcolor='#eee';
+				this.position='absolute';
+				this.top=20;
+				this.left=20;
+				this._map=null; //定义一个属性用于承载地图div标签
+			}
+			//地图的原型方法——显示地图
+			Map.prototype.show=function(){
+				//创建地图div
+				this._map=document.createElement('div');
+				//将地图div装到body中
+				document.body.appendChild(this._map);
+				//给创建好的地图设置样式
+				this._map.style.width=this.width+'px';
+				this._map.style.height=this.height+'px';
+				this._map.style.border=this.border;
+				this._map.style.background=this.bgcolor;
+				this._map.style.position=this.position;
+				this._map.style.left=this.left+'px';
+				this._map.style.top=this.top+'px';
+			}
+			
+			//食物构造器
+			function Food(){
+				this.width=20;
+				this.height=20;
+				this.color='green';
+				this.position='absolute';
+				//食物的坐标
+				this.x=2;
+				this.y=2;
+				//定义一个属性用于承载食物
+				this._food=null;
+			}
+			//食物的原型方法——显示食物
+			Food.prototype.show=function(){
+				this._food=document.createElement('div');
+				//将创建好的食物div，装到地图中
+				game.map._map.appendChild(this._food);
+				//给食物div设置样式
+				this._food.style.width=this.width+'px';
+				this._food.style.height=this.height+'px';
+				this._food.style.background=this.color;
+				this._food.style.position=this.position;
+				//给食物定位
+				this.rand();
+			}
+			//随机定位食物
+			Food.prototype.rand=function(){
+				this.x=getRand(0,39);
+				this.y=getRand(0,19);
+				
+				//根据x和y轴的坐标显示食物
+				this._food.style.left=this.x*20+'px';
+				this._food.style.top=this.y*20+'px';
+				
+				//创建一个函数，实现返回指定区间的随机数
+				function getRand(min,max){
+					return Math.floor(Math.random()*(max-min+1))+min;
+				}
+			}
+			
+			//蛇构造器
+			function Snake(){
+				this.width=20;
+				this.height=20;
+				//由于蛇是由多个蛇节组成，所以使用二维数组保存蛇的信息
+				this.body=[
+					[4,2,'red',null],
+					[3,2,'green',null],
+					[2,2,'green',null]
+				];
+				this.position='absolute';
+				this.redirect='down'; //定义蛇的运行方向
+			}
+			//显示蛇的原型方法
+			Snake.prototype.show=function(){
+				//遍历蛇的数组，打印出一条蛇
+				for(var i in this.body){
+					//将遍历到的蛇节保存是一个临时变量中，便于使用
+					var body=this.body[i];
+					
+					//如果没有蛇节则创建，有了蛇节就不创建了
+					if(body[3]===null){
+						//创建一个div代表蛇节，并保存到蛇节信息的第四个位置
+						body[3]=document.createElement('div');
+						//将蛇节显示到地图中
+						game.map._map.appendChild(body[3]);
+						//给蛇节添加样式
+						body[3].style.width=this.width+'px';
+						body[3].style.height=this.height+'px';
+						body[3].style.background=body[2]; //从当前蛇节信息中读取到颜色
+						body[3].style.position=this.position;
+					}
+					//改变蛇节的位置
+					body[3].style.left=body[0]*20+'px'; //从当前蛇节信息中读取到x坐标，并且定位
+					body[3].style.top=body[1]*20+'px';
+				}
+			}
+			//移动蛇的方法
+			Snake.prototype.move=function(){
+				//倒过来遍历蛇节，让最后一节获取前一节的坐标，前一节再获取前一节的坐标
+				for(var i=this.body.length-1; i>0; i--){
+					//当前蛇节获取到前一节的坐标
+					this.body[i][0]=this.body[i-1][0];
+					this.body[i][1]=this.body[i-1][1];
+				}
+				
+				//蛇头最后单独移动
+				if(this.redirect=='right'){
+					this.body[0][0]++; //如果蛇的方向是向右， x轴不断累加
+				}
+				if(this.redirect=='left'){
+					this.body[0][0]--; //如果方向向左，x轴不断自减
+				}
+				if(this.redirect=='top'){
+					this.body[0][1]--; //如果方向是向上，y轴不断自减
+				}
+				if(this.redirect=='down'){
+					this.body[0][1]++; //向下则y轴不断自加
+				}
+				
+				//重新显示蛇
+				this.show();
+			}
+			
+			
+			//游戏构造器
+			function Game(){
+				this.map=new Map();
+				this.food=new Food();
+				this.snake=new Snake();
+			}
+			//游戏构造器的方法——开始游戏
+			Game.prototype.start=function(){
+				this.map.show();
+				this.food.show();
+				this.snake.move();
+				
+				//开始游戏时设置定时器，让蛇不断的移动
+				window.setInterval(function(){
+					game.snake.move();
+				},200);
+				
+				//绑定事件捕捉用户的按键行为
+				document.onkeydown=function(){
+					//如果 keyCode是37（左方向键），改变蛇的方向向左
+					if(event.keyCode == 37){
+						game.snake.redirect='left';
+					}
+					//如果是38，则向上
+					if(event.keyCode==38){
+						game.snake.redirect='top';
+					}
+					//如果是39，则向右
+					if(event.keyCode==39){
+						game.snake.redirect='right';
+					}
+					//如果是40，则向下
+					if(event.keyCode==40){
+						game.snake.redirect='down';
+					}
+				}
+			}
+			
+			//实例化游戏对象
+			var game=new Game();
+			game.start();
+		</script>
+	</body>
+</html>

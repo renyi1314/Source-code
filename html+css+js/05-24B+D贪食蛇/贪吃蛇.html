@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇</title>
+</head>
+<body>
+<script>
+    function Map() {
+        this.border = "4px solid #f00";
+        this.background = "#eee";
+        this.width = "800px";
+        this.height = "600px";
+        this._map = null;
+    }
+
+    Map.prototype.show = function () {
+        this._map = document.createElement("div");
+        // this._map.innerText ="123";
+        this._map.style.border = this.border;
+        this._map.style.background = this.background;
+        this._map.style.width = this.width;
+        this._map.style.height = this.height;
+        document.body.appendChild(this._map)
+    };
+
+    function Food() {
+        this.width = "20px";
+        this.height = "20px";
+        this.position = "absolute";
+        this.bgColor = "green";
+        this._food = null;
+        this.x = getRanNum(0, 39);
+        this.y = getRanNum(0, 29);
+
+        function getRanNum(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+    }
+
+    Food.prototype.show = function () {
+        this._food = document.createElement("div");
+        this._food.style.width = this.width;
+        this._food.style.height = this.height;
+        this._food.style.background = this.bgColor;
+        this._food.style.position = this.position;
+        this._food.style.left = this.x * 20 + "px";
+        this._food.style.top = this.y * 20 + "px";
+        game.map._map.appendChild(this._food)
+    };
+
+    function Snake() {
+        this.width = "20px";
+        this.height = "20px";
+        this.position = "absolute";
+        this.redirect = "right";
+        this.body = [
+            [4, 2, "red", null], [3, 2, "green", null], [2, 2, "green", null]
+        ]
+    }
+
+    Snake.prototype.show = function () {
+        for (var i in this.body) {
+            if (this.body[i][3] === null) {
+                this.body[i][3] = document.createElement("div");
+                game.map._map.appendChild(this.body[i][3]);
+                this.body[i][3].style.width = this.width;
+                this.body[i][3].style.height = this.height;
+                this.body[i][3].style.position = this.position;
+                this.body[i][3].style.background = this.body[i][2];
+            }
+            this.body[i][3].style.left = this.body[i][0] * 20 + "px";
+            this.body[i][3].style.top = this.body[i][1] * 20 + "px";
+        }
+    };
+
+    Snake.prototype.move = function () {
+        for (var i = this.body.length - 1; i > 0; i--) {
+            this.body[i][0] = this.body[i - 1][0];
+            this.body[i][1] = this.body[i - 1][1];
+        }
+        if (this.redirect === "right") {
+            this.body[0][0]++;
+        }
+        if (this.redirect === "left") {
+            this.body[0][0]--;
+        }
+        if (this.redirect === "up") {
+            this.body[0][1]--;
+        }
+        if (this.redirect === "down") {
+            this.body[0][1]++;
+        }
+
+
+        this.show()
+    };
+
+
+    function Game() {
+        this.map = new Map();
+        this.food = new Food();
+        this.snake = new Snake();
+    }
+
+    Game.prototype.start = function () {
+        this.map.show();
+        this.food.show();
+        setInterval(function () {
+            game.snake.move()
+        }, 100);
+
+        document.onkeydown = function () {
+            if (event.keyCode === 37) {
+                game.snake.redirect = "left";
+            }
+            if (event.keyCode === 38) {
+                game.snake.redirect = "up";
+            }
+            if (event.keyCode === 39) {
+                game.snake.redirect = "right";
+            }
+            if (event.keyCode === 40) {
+                game.snake.redirect = "down";
+            }
+        }
+
+    };
+
+    game = new Game();
+    game.start();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展原型</title>
+</head>
+<body>
+<input type="text" id="tmp"/>
+<button onclick="inArray()">点这里</button>
+<script>
+    function inArray() {
+        const name = document.getElementById("tmp").value;
+        const names = ["张三", "李四", "呵呵"];
+        console.log(document.getElementById("tmp").type);
+        console.log(names.indexOf(name) !== -1);
+    }
+
+
+
+</script>
+</body>
+</html>
