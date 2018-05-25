@@ -1,35 +1,12 @@
-# def count1():
-#     fs = []
-#     for i in range(1, 4):
-#         def wrapper(a):
-#             def f():
-#                 return a * a
-#             return f
-#         fs.append(wrapper(i))
-#
-#     return fs
-#
-# f1, f2, f3 = count1()
-# print(f1())
-# print(f2())
-# print(f3())
-#
-#
-#
-# def cou
+class Foo:
+
+    def __new__(cls, *args, **kwargs):
+        if not hasattr(cls, "instance"):
+            cls.instance = super().__new__(cls)
+        return cls.instance
 
 
+a = Foo()
+b = Foo()
 
-def count1():
-    fs = []
-    for i in range(1, 4):
-        def f():
-            return i * i
-        fs.append(f)
-    return fs
-
-f1, f2, f3 = count1()
-
-print(f1())
-print(f2())
-print(f3())
+print(id(a), id(b), a is b)
