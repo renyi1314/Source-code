@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css选择器</title>
+    <link rel="stylesheet" type="text/css" href="./css/my_style.css">
+</head>
+<body>
+<style>
+    .link:hover{
+        color: #0000ff;
+        font-size: 100px;
+    }
+    .wei::before{
+        color: #ff0000;
+        content: "这才是真正的伪元素";
+    }
+</style>
+<!--伪类选择器-->
+<a class="link" href="01-css选择器.html" target="_blank">这是一个链接</a>
+<!--伪元素-->
+<div class="wei">听说这是个伪元素</div>
+</body>
+</html>
