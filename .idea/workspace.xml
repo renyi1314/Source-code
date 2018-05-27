@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f417eb12-a085-4bc4-a01b-3e3478bb72de" name="Default" comment="js">
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/05-20JS/变量值.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/01-jquery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/02-基本选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/02(1).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/选择器概述.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-27JQUERY-DAY02/js/jquery-1.11.3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html+css+js/05-17企业网站项目/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/html+css+js/05-17企业网站项目/news.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,24 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="JS 语法.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/JS 语法.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="if.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/if.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="冒泡排序.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/冒泡排序.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,11 +41,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="变量值.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="变量值.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/变量值.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-jquery.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/01-jquery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02(1).html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/02(1).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -65,25 +90,7 @@
         <entry file="file://$PROJECT_DIR$/plus/sort/bubble_sort3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="定义函数.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/定义函数.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="68" />
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -97,6 +104,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>attr(</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -109,6 +121,10 @@
         <option value="$PROJECT_DIR$/html+css+js/05-20JS/if.html" />
         <option value="$PROJECT_DIR$/html+css+js/05-20JS/冒泡排序.html" />
         <option value="$PROJECT_DIR$/html+css+js/05-20JS/变量值.html" />
+        <option value="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/01-jquery.html" />
+        <option value="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/demo.html" />
+        <option value="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/01.html" />
+        <option value="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/02(1).html" />
       </list>
     </option>
   </component>
@@ -121,17 +137,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="97" />
-    <option name="y" value="52" />
-    <option name="width" value="1750" />
-    <option name="height" value="975" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-138" />
+    <option name="width" value="978" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +164,26 @@
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Source-code" type="462c0819:PsiDirectoryNode" />
               <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
-              <item name="05-20JS" type="462c0819:PsiDirectoryNode" />
+              <item name="05-26JQUERY-DAY01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
+              <item name="05-26JQUERY-DAY01" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
+              <item name="05-27JQUERY-DAY02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
@@ -165,7 +200,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,6 +210,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\githubproject\Source-code\html+css+js\05-26JQUERY-DAY01\homework" />
+      <recent name="E:\githubproject\Source-code\html+css+js\05-27JQUERY-DAY02\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,8 +229,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.demo.html">
+    <configuration name="demo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://192.168.133.133/html+css+js/05-26JQUERY-DAY01/demo.html" />
     <configuration name="for循环.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://192.168.133.133/html+css+js/05-20JS/for循环.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.demo.html" />
+      <item itemvalue="JavaScript Debug.for循环.html" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.for循环.html" />
@@ -212,6 +257,10 @@
       <workItem from="1526779255556" duration="6696000" />
       <workItem from="1526791889983" duration="8000" />
       <workItem from="1526791911333" duration="1245000" />
+      <workItem from="1527299096396" duration="50000" />
+      <workItem from="1527316214605" duration="5919000" />
+      <workItem from="1527382161273" duration="4396000" />
+      <workItem from="1527390079708" duration="7553000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1526780209084</created>
@@ -231,35 +280,36 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8269000" />
+    <option name="totallyTimeSpent" value="26187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="42" width="1400" height="780" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27705628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" order="7" visible="true" weight="0.32582584" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="File Transfer" order="7" visible="true" weight="0.32458565" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.18093923" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32932693" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32932693" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +323,135 @@
     <MESSAGE value="js" />
     <option name="LAST_COMMIT_MESSAGE" value="js" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/js/jquery-3.3.1.min.js</url>
+          <line>26</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/js/jquery-3.3.1.min.js</url>
+          <line>60</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/冒泡排序.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/for循环.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/变量值.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/sort/bubble_sort3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/定义函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/01-jquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/JS 语法.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/冒泡排序.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/for循环.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/sort/bubble_sort3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/定义函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/变量值.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/JS 语法.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -402,14 +580,14 @@
     <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/定义函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="68" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="171">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -430,7 +608,7 @@
     <entry file="file://$PROJECT_DIR$/plus/sort/bubble_sort3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="24" />
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -451,7 +629,75 @@
     <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/变量值.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/01-jquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-895">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#102#367#0" />
+            <element signature="e#679#765#0" />
+            <element signature="e#785#843#0" />
+            <element signature="e#909#1092#0" />
+            <element signature="e#1112#1240#0" />
+            <element signature="e#1283#1325#0" />
+            <element signature="e#1394#2484#0" />
+            <element signature="e#2523#3078#0" />
+            <element signature="e#3198#3240#0" />
+            <element signature="e#3260#3271#0" />
+            <element signature="e#3301#3501#0" />
+            <element signature="e#3646#3674#0" />
+            <element signature="e#3748#3850#0" />
+            <element signature="e#5187#5361#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-27JQUERY-DAY02/js/jquery-1.11.3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/选择器概述.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/js/jquery-1.11.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="5852" column="33" lean-forward="true" selection-start-line="5852" selection-start-column="27" selection-end-line="5852" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/02(1).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>

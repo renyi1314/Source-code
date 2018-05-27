@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <script src="js/jquery-1.11.3.js"></script>
+</head>
+<body>
+<ul>
+    <li><select>
+        <option>a</option>
+        <option>b</option>
+        <option>c</option>
+    </select>
+        <input type="radio" checked="checked"/>1
+    </li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+</ul>
+<p id="one">我是id为one的元素,我的颜色是蓝色</p>
+<p class="mini">我是class为mini的元素,我的颜色是红色</p>
+<div>我的标签名为div,我的背景色为蓝色</div>
+<div>321<div>123</div></div>
+<p>pppp<span>span</span></p>
+<p id="two">two</p>
+<script>
+    $('li:first').css('background', '#00ffff');
+    $('li:odd').css('background', '#eeeeee');
+    $('#one').css('color', '#0000ff');
+    $('.mini').css('color', '#ff0033');
+    $('div').css('background', '#00ffff');
+    $('span,#two').css('background', '#3399ff');
+    // $('body div').css('background','#000000')
+    // $('body > div').css('background','#ff0033')
+    $('body').prepend($('<h1>这是一个标题</h1>'))
+    // $('<h1>这是一个标题</h1>').appendTo($('body'))
+</script>
+</body>
+</html>
