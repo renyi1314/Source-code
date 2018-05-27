@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01</title>
+    <script src="../js/jquery-1.11.3.js"></script>
+</head>
+<body>
+<style>
+    td {
+        width: 200px;
+
+    }
+</style>
+<table>
+    <tr id="head">
+        <td>序号<input type="checkbox" id="ok" mytest="hello"></td>
+        <td>名称</td>
+        <td>价格</td>
+        <td>数量</td>
+    </tr>
+    <tr>
+        <td>1<input type="checkbox"></td>
+        <td>apple手机</td>
+        <td>5000</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>2<input type="checkbox"></td>
+        <td>HTC手机</td>
+        <td>3000</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>3<input type="checkbox"></td>
+        <td>诺基亚手机</td>
+        <td>2000</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>4<input type="checkbox"></td>
+        <td>三星手机</td>
+        <td>1000</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>5<input type="checkbox"></td>
+        <td>黑莓手机</td>
+        <td>5500</td>
+        <td>14</td>
+    </tr>
+</table>
+
+<script>
+    $('tr:even').css('background', '#0000ff');
+    $('#head').css('background', 'yellow');
+    $('tr:last').css('font-size', "14px");
+    var trcolor = "";
+
+    $('tr').on('mouseover', function () {
+        trcolor = $(this).css('background-color');
+        $(this).css("background-color", "#f00");
+    });
+
+    $('tr').on('mouseout', function () {
+        $(this).css("background-color", trcolor);
+    });
+
+    $('#ok').on('change', function () {
+        $(this).attr("mytest","123");
+        console.log($(this));
+        console.log($(this).attr('checked'));
+        console.log($(this).prop('checked'));
+        if ($(this).prop('checked')) {
+            $(':checkbox').prop('checked', true);
+        }
+        else {
+            $(':checkbox').prop('checked', false);
+        }
+    });
+
+</script>
+</body>
+</html>

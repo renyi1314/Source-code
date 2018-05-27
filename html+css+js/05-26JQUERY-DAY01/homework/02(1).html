@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        table {
+            width: 600px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 4px 6px;
+        }
+    </style>
+    <script src="../js/jquery-1.11.3.js"></script>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>序号 <input type="checkbox" id="checkall"/></th>
+        <th>名称</th>
+        <th>价格</th>
+        <th>数量</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1 <input type="checkbox"/></td>
+        <td>apple手机</td>
+        <td>5000</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>2 <input type="checkbox"/></td>
+        <td>apple手机</td>
+        <td>5000</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>3 <input type="checkbox"/></td>
+        <td>黑莓手机</td>
+        <td>5000</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>4 <input type="checkbox"/></td>
+        <td>apple手机</td>
+        <td>5000</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>5 <input type="checkbox"/></td>
+        <td>apple手机</td>
+        <td>5000</td>
+        <td>10</td>
+    </tr>
+    </tbody>
+</table>
+
+<script>
+    //①　奇数行和偶数行颜色不同。
+    $('tbody>tr:odd').css('background', '#0ac');
+
+    //②　表头的颜色与其他行颜色不同。
+    $('thead>tr').css('background', '#ff0');
+
+    //③　将内容包含“黑莓手机”的行字体颜色设置为绿色,字体大小：14px。
+    //$('tr:contains(黑莓手机)').css({'color':'#0f0','font-size':'14px'});
+    $('tr:contains(黑莓手机)').css('color', '#0f0').css('font-size', '14px');
+
+    //④　鼠标移动到某一行上，当前行颜色高亮显示，鼠标移动开后恢复原来的颜色。
+    var trcolor = ''; //定义一个变量用于暂时存储tr的背景
+    $('tr').on('mouseover', function () {
+        //读取tr的背景色存储在 trcolor中，以备后用
+        trcolor = $(this).css('background-color');
+
+        $(this).css('background', '#f00');
+    });
+
+    $('tr').on('mouseout', function () {
+        //从暂存的变量中读取原来的背景色
+        $(this).css('background', trcolor);
+    });
+
+    //⑤　点击表头“序号”后面的复选框，将所有记录全选，再次点击，取消全选。
+    $('#checkall').on('change', function () {
+        console.log($(this).attr('checked'));
+        //通过jquery对象的 prop方法读取 checked属性的值， 如果为真就全选，否则取消全选
+        if ($(this).prop('checked')) {
+            $(':checkbox').prop('checked', true);
+        } else {
+            $(':checkbox').prop('checked', false);
+        }
+    });
+</script>
+</body>
+</html>
