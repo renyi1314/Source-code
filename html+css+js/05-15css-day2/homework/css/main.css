@@ -3,6 +3,7 @@ div{
 }
 .g-header{
     position: fixed;
+    top: 0;
 }
 .youku-log{
     position: relative;

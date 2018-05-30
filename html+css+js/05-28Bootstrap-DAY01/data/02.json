@@ -1,0 +1,24 @@
+[
+	{
+		"category":"电脑整机",
+		"product":[
+			{"name":"游戏本","image":"images/cate_04.jpg"},
+			{"name":"笔记本15.6","image":"images/cate_03.png"},
+			{"name":"游戏本","image":"images/cate_04.jpg"},
+			{"name":"笔记本 2S","image":"images/cate_02.png"},
+			{"name":"黑鲨游戏手机","image":"images/cate_03.png"},
+			{"name":"红米S2","image":"images/cate_04.jpg"}
+		]
+	},
+	{
+		"category":"电脑配件",
+		"product":[
+			{"name":"游戏本","image":"images/cate_02.png"},
+			{"name":"笔记本15.6","image":"images/cate_03.png"},
+			{"name":"游戏本","image":"images/cate_04.jpg"},
+			{"name":"笔记本 2S","image":"images/cate_02.png"},
+			{"name":"黑鲨游戏手机","image":"images/cate_03.png"},
+			{"name":"红米S2","image":"images/cate_04.jpg"}
+		]
+	}
+]

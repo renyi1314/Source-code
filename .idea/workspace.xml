@@ -2,17 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f417eb12-a085-4bc4-a01b-3e3478bb72de" name="Default" comment="js">
-      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/01-jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/02-基本选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/02(1).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/js/jquery-1.11.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/选择器概述.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-27JQUERY-DAY02/homework/二级菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-27JQUERY-DAY02/homework/户籍系统.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/html+css+js/05-27JQUERY-DAY02/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-27JQUERY-DAY02/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/01-bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/css/custom-fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/css/fancybox/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/css/fancybox/fancybox_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/css/fancybox/fancybox_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/css/fancybox/fancybox_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/css/fancybox/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/fonts/customicon/Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/fonts/customicon/Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/fonts/customicon/Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/fonts/customicon/Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/bg_direction_nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/client1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/client2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/client3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/dev1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/nivo-bullets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/service1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/service2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/service3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/slides/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/slides/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/team1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/team2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/team3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/team4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/works/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/works/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/works/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/works/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/works/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/works/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/works/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/img/works/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/flexslider/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/flexslider/setting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/google-code-prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/google-code-prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/jquery.fancybox-media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/jquery.fancybox.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/portfolio/jquery.quicksand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/portfolio/setting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/quicksand/jquery.quicksand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/quicksand/setting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/data/01.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/data/02.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/11.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/12.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/14.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/image01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/image02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/image03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/image04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/logo-person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/小米官网02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html+css+js/05-15css-day2/homework/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/html+css+js/05-15css-day2/homework/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/小米官网01.html" beforeDir="false" afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/小米官网01.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,74 +112,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="冒泡排序.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/冒泡排序.html">
+      <file leaf-file-name="小米官网01.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/小米官网01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="小米官网02.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/小米官网02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="42" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/category.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/test.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="for循环.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/for循环.html">
+      <file leaf-file-name="01.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/data/01.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="变量值.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/变量值.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-jquery.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/01-jquery.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02(1).html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/02(1).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bubble_sort3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plus/sort/bubble_sort3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="283">
+              <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -101,12 +163,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="HTML4 File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>attr(</find>
+      <find>z-in</find>
+      <find>cate_topnav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,6 +191,14 @@
         <option value="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/demo.html" />
         <option value="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/01.html" />
         <option value="$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/02(1).html" />
+        <option value="$PROJECT_DIR$/html+css+js/05-27JQUERY-DAY02/01-bootstrap.html" />
+        <option value="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/01-bootstrap.html" />
+        <option value="$PROJECT_DIR$/html+css+js/05-15css-day2/homework/css/main.css" />
+        <option value="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/css/index.css" />
+        <option value="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/小米官网01.html" />
+        <option value="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/category.html" />
+        <option value="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/test.html" />
+        <option value="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/小米官网02.html" />
       </list>
     </option>
   </component>
@@ -137,17 +211,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-138" />
-    <option name="width" value="978" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="368" />
+    <option name="y" value="7" />
+    <option name="width" value="1375" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,26 +238,22 @@
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Source-code" type="462c0819:PsiDirectoryNode" />
               <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
-              <item name="05-26JQUERY-DAY01" type="462c0819:PsiDirectoryNode" />
+              <item name="05-28Bootstrap-DAY01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Source-code" type="462c0819:PsiDirectoryNode" />
               <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
-              <item name="05-26JQUERY-DAY01" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="05-28Bootstrap-DAY01" type="462c0819:PsiDirectoryNode" />
+              <item name="mi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Source-code" type="462c0819:PsiDirectoryNode" />
               <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
-              <item name="05-27JQUERY-DAY02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
-              <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="05-28Bootstrap-DAY01" type="462c0819:PsiDirectoryNode" />
+              <item name="mi" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
@@ -200,19 +270,27 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\githubproject\Source-code\html+css+js\05-28Bootstrap-DAY01" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\githubproject\Source-code\html+css+js\05-28Bootstrap-DAY01" />
+      <recent name="E:\githubproject\Source-code\html+css+js\05-28Bootstrap-DAY01\images" />
+      <recent name="E:\githubproject\Source-code\html+css+js\05-28Bootstrap-DAY01\bootstrap-3.3.7-dist\js" />
       <recent name="E:\githubproject\Source-code\html+css+js\05-26JQUERY-DAY01\homework" />
       <recent name="E:\githubproject\Source-code\html+css+js\05-27JQUERY-DAY02\js" />
     </key>
@@ -260,7 +338,10 @@
       <workItem from="1527299096396" duration="50000" />
       <workItem from="1527316214605" duration="5919000" />
       <workItem from="1527382161273" duration="4396000" />
-      <workItem from="1527390079708" duration="7553000" />
+      <workItem from="1527390079708" duration="8152000" />
+      <workItem from="1527561533503" duration="12427000" />
+      <workItem from="1527642925247" duration="3189000" />
+      <workItem from="1527663862370" duration="5421000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1526780209084</created>
@@ -276,41 +357,74 @@
       <option name="project" value="LOCAL" />
       <updated>1526786266802</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="js">
+      <created>1527589047019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527589047019</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26187000" />
+    <option name="totallyTimeSpent" value="47823000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="295" y="6" width="1100" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17679559" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" order="7" visible="true" weight="0.32458565" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="13" visible="true" weight="0.24512535" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.18093923" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18093923" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32932693" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.33240223" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.125" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18093923" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="13" visible="true" weight="0.24585636" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32932693" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -340,146 +454,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/if.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/冒泡排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/for循环.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/变量值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plus/sort/bubble_sort3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/定义函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/01-jquery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/JS 语法.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/if.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/冒泡排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/for循环.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plus/sort/bubble_sort3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/定义函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/变量值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/JS 语法.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/if.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/冒泡排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/05-20JS/for循环.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plus/sort/bubble_sort3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -667,7 +641,7 @@
     <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -681,23 +655,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="5852" column="33" lean-forward="true" selection-start-line="5852" selection-start-column="27" selection-end-line="5852" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" selection-end-column="45" />
+        <state relative-caret-position="1349">
+          <caret line="71" selection-start-line="71" selection-end-line="71" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html+css+js/05-26JQUERY-DAY01/homework/02(1).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="240">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/js/jquery-1.11.3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-14-css-day1/01-css选择器.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/cpts_844_bie/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-17企业网站项目/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-15css-day2/homework/youku.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/image01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-17企业网站项目/news.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-15css-day2/homework/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/01-bootstrap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/index.css" />
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1143">
+          <caret line="78" selection-start-line="78" selection-end-line="86" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="134" selection-start-line="134" selection-end-line="138" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/data/01.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/data/01.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/小米官网01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/小米官网02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="42" selection-end-column="34" />
         </state>
       </provider>
     </entry>

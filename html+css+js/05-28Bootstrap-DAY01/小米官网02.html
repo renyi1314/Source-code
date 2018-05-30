@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>分类页</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+    <script src="bootstrap/js/jquery-1.11.3.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row cate_topnav">
+        <div class="col-xs-2"><span class="glyphicon glyphicon-chevron-left"></span></div>
+        <div class="col-xs-8">分类</div>
+        <div class="col-xs-2"><span class="glyphicon glyphicon-search"></span></div>
+        <div class="row cate_content">
+            <div class="col-xs-3 cate_left">
+                <a href="javascript:;" class="on" id="01">手机</a>
+                <a href="javascript:;" id="02">电脑</a>
+                <a href="#">电视</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+                <a href="#">手机</a>
+            </div>
+            <div class="col-xs-9 cate_right">
+                <a href="#"><img src="images/cate_01.jpg" class="img-responsive"/> </a>
+                <h4 class="text-center">手机</h4>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <img src="images/cate_02.png" class="img-responsive"/>
+                        <a href="#">小米MIX 2S</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="images/cate_03.png" class="img-responsive"/>
+                        <a href="#">黑鲨游戏手机</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="images/cate_04.jpg" class="img-responsive"/>
+                        <a href="#">红米S2</a>
+                    </div>
+                </div>
+                <h4 class="text-center">红米手机</h4>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <img src="images/cate_02.png" class="img-responsive"/>
+                        <a href="#">小米MIX 2S</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="images/cate_03.png" class="img-responsive"/>
+                        <a href="#">黑鲨游戏手机</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="images/cate_04.jpg" class="img-responsive"/>
+                        <a href="#">红米S2</a>
+                    </div>
+                </div>
+                <h4 class="text-center">大米手机</h4>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <img src="images/cate_02.png" class="img-responsive"/>
+                        <a href="#">小米MIX 2S</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="images/cate_03.png" class="img-responsive"/>
+                        <a href="#">黑鲨游戏手机</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="images/cate_04.jpg" class="img-responsive"/>
+                        <a href="#">红米S2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="container footer">
+    <div class="row">
+        <div class="col-xs-3"><span class="glyphicon glyphicon-home"></span>首页</div>
+        <div class="col-xs-3"><span class="glyphicon glyphicon-list-alt"></span>分类</div>
+        <div class="col-xs-3"><span class="glyphicon glyphicon-shopping-cart"></span>购物车</div>
+        <div class="col-xs-3"><span class="glyphicon glyphicon-user"></span>我的</div>
+    </div>
+</div>
+<script>
+    // 点击事件
+    $('.cate_left a').on('click', function () {
+        // 点击添加class.并移除其他a标签的class
+        $('.cate_left a').removeClass("on");
+        $(this).addClass("on");
+        // 获取对应id
+        var id = $(this).attr("id");
+        // 发送ajax请求,获取json数据
+        $.get("data/" + id + ".json", function (data) {
+            var html = '<a href="#"><img src="images/cate_01.jpg" class="img-responsive"/></a>';
+            // 遍历数组,拼接html
+            $.each(data, function (i, v) {
+                html += '<h4 class="text-center">' + v.category + '</h4>';
+                html += '<div class="row">';
+                // console.log(v);
+                // 遍历数组里的对象,再拼接商品
+                $.each(v.product, function (index, value) {
+                    // console.log(value.image);
+                    // console.log(value);
+                    html += '<div class="col-xs-4">';
+                    html += '<img src="' + value.image + '" class="img-responsive"/>';
+                    html += '<a href="#">' + value.name + '</a>';
+                    html += '</div>'
+                });
+                html += '</div>';
+            });
+            console.log(html);
+            $('.cate_right').html(html)
+        })
+    })
+</script>
+</body>
+</html>

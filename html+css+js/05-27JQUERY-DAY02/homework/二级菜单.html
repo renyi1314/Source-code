@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二级菜单</title>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <style>
+        dl {
+            width: 200px;
+            border: 2px solid #f00;
+            margin: 0 auto;
+        }
+
+        dt {
+            background: #ddd;
+            line-height: 30px;
+            text-indent: 1em;
+            border-bottom: 1px solid #ccc;
+        }
+
+        dt span {
+            float: right;
+            margin-right: 6px;
+        }
+
+        dd {
+            display: none;
+        }
+
+        dd a {
+            display: block;
+            line-height: 24px;
+        }
+    </style>
+</head>
+<body>
+<dl>
+    <dt><span>+</span>哲学</dt>
+    <dd>
+        <a href="#">11111</a>
+        <a href="#">11111</a>
+        <a href="#">11111</a>
+        <a href="#">11111</a>
+    </dd>
+    <dt><span>+</span>经济学</dt>
+    <dd>
+        <a href="#">2222</a>
+        <a href="#">2222</a>
+        <a href="#">2222</a>
+        <a href="#">2222</a>
+    </dd>
+    <dt><span>+</span>法学</dt>
+    <dd>
+        <a href="#">3333</a>
+        <a href="#">3333</a>
+        <a href="#">3333</a>
+        <a href="#">3333</a>
+    </dd>
+    <dt><span>+</span>计算机应用</dt>
+    <dd>
+        <a href="#">4444</a>
+        <a href="#">4444</a>
+        <a href="#">4444</a>
+        <a href="#">4444</a>
+    </dd>
+</dl>
+<script>
+    $('dt').on('click',function () {
+        $('dd').hide('fast');
+        $('dt span').html("+");
+        $(this).find("span").html("-");
+        $(this).next().show(200)
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+[
+	{
+		"category":"小米手机",
+		"product":[
+			{"name":"小米MIX 2S","image":"images/cate_02.png"},
+			{"name":"黑鲨游戏手机","image":"images/cate_03.png"},
+			{"name":"红米S2","image":"images/cate_04.jpg"},
+			{"name":"小米MIX 2S","image":"images/cate_02.png"},
+			{"name":"黑鲨游戏手机","image":"images/cate_03.png"},
+			{"name":"红米S2","image":"images/cate_04.jpg"}
+		]
+	},
+	{
+		"category":"红米手机",
+		"product":[
+			{"name":"小米MIX 2S","image":"images/cate_02.png"},
+			{"name":"黑鲨游戏手机","image":"images/cate_03.png"},
+			{"name":"红米S2","image":"images/cate_04.jpg"},
+			{"name":"小米MIX 2S","image":"images/cate_02.png"},
+			{"name":"黑鲨游戏手机","image":"images/cate_03.png"},
+			{"name":"红米S2","image":"images/cate_04.jpg"}
+		]
+	}
+]

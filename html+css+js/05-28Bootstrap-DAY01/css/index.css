@@ -1,0 +1,131 @@
+header {
+    background: #f2f2f2;
+    overflow: hidden;
+    position: fixed;
+    display: block;
+    z-index: 99;
+    /*padding-bottom: 1px;*/
+    /*margin: 0 0 1px 0;*/
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+.content{
+    height: 54px;
+}
+
+
+.logo_div {
+    padding-right: 10px;
+}
+
+.logo {
+    padding: 6px 0 0 10px;
+}
+
+.logo2_div {
+    padding-right: 0;
+}
+
+.logo2 {
+    padding-right: 20px;
+}
+
+.nav {
+    width: 100%;
+    /*overflow: hidden;*/
+    align-content: center;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.clear {
+    clear: both;
+}
+
+.fans {
+    display: flex;
+}
+
+.fans a {
+    display: block;
+}
+
+.fans a img {
+    width: 100%;
+}
+
+.main1 > div {
+    padding: 0;
+}
+
+.main1 > div.main1_left {
+    padding-right: 2px;
+}
+
+.main1 > div.main1_right {
+    padding-left: 2px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 0;
+    height: 4rem;
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+    width: 100%;
+    background: #fff;
+}
+
+.footer span {
+    display: block;
+    font-size: 20px;
+}
+
+
+
+
+.cate_topnav{
+    text-align: center;
+    font-size: 1.3em;
+    background: #f2f2f2;
+    padding: 0.8rem 0;
+    color: #666666;
+}
+.cate_left,.cate_right{
+    height: 550px;
+    overflow: auto;
+}
+
+.cate_left a{
+    display: block;
+    color:#555;
+    height: 4rem;
+    font:1.5rem/2em 微软雅黑;
+    text-align: center;
+}
+
+.cate_right h4{
+    line-height: 5rem;
+}
+.cate_left a.on{
+    font-size: 1.8rem;
+    color: #fb7d34;
+}
+
+.cate_right .col-xs-4{
+    padding: 0 4px;
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+
+.cate_right .col-xs-4 a{
+    font-size: 12px;
+}
