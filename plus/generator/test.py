@@ -9,7 +9,7 @@ def producer(gen, n):
     gen.__next__()
     for i in range(n):
         print("我是生产者: {}".format(i))
-        gen.send(None)
+        gen.send(i)
 
 
 gen = consumer()
