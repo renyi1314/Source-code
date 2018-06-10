@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>python留言板</title>
+    <script src="js/jquery-1.11.3.js"></script>
+</head>
+<body>
+<div id="msglist">
+    <p>姓名：... 留言：.....</p>
+    <p>姓名：... 留言：.....</p>
+    <p>姓名：... 留言：.....</p>
+</div>
+<hr/>
+<div>
+    <p>id:</p>
+    <p>姓名：<input type="text" name="username" id="username"/></p>
+    <p>内容：<textarea cols="60" rows="5" name="content" id="content"></textarea></p>
+    <p><input type="button" value="提交" id="commit"/></p>
+</div>
+
+<script>
+
+    // 构造显示方法,重新渲染页面姓名及留言内容
+    function Display() {
+    }
+
+    // Display.prototype.show = function () {
+    //     html = "";
+    //     $.get("/cgi-bin/list.py", function (data) {
+    //         $.each(data, function (i, v) {
+    //             html += "<p>姓名：" + v[0] + " 留言：" + v[1] + "</p>";
+    //         });
+    //         $('#msglist').html(html)
+    //     });
+    // };
+
+    var myFunction = new Display();
+    $(function () {
+        myFunction.show()
+    });
+    $('#commit').on('click', function () {
+        username = $('#username').val();
+        content = $('#content').val();
+        $.ajax({
+            type: "POST",
+            url: "/cgi-bin/save2.py",
+            data: {username: username, content: content},
+            dataType: "json",
+            success: function (data) {
+                // alert("留言成功");
+                myFunction.show();
+            },
+            error: function (data) {
+            },
+        });
+    })
+</script>
+</body>
+</html>

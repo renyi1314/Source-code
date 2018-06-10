@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>python留言板</title>
+    <script src="js/jquery-1.11.3.js"></script>
+</head>
+<body>
+<div id="msglist">
+    <p>姓名：... 留言：.....</p>
+    <p>姓名：... 留言：.....</p>
+    <p>姓名：... 留言：.....</p>
+</div>
+<hr/>
+<form action="/cgi-bin/save.py" method="post">
+    <p>姓名：<input type="text" name="username"/></p>
+    <p>内容：<textarea cols="60" rows="5" name="content"></textarea></p>
+    <p><input type="submit" value="提交"/></p>
+</form>
+
+<script>
+    $(function () {
+        html = "";
+        $.get("/cgi-bin/list.py", function (data) {
+            $.each(data, function (i, v) {
+                html += "<p>姓名：" + v[0] + " 留言：" + v[1] + "</p>";
+                console.log(html)
+            });
+            $('#msglist').html(html)
+        });
+    })
+</script>
+
+</body>
+</html>
