@@ -5,6 +5,7 @@ import time
 data = []
 
 
+
 class Producer(threading.Thread):
 
     def __init__(self):
@@ -40,5 +41,5 @@ producer = Producer()
 consumer = Consumer()
 producer.start()
 consumer.start()
-producer.join()
-consumer.join()
+# producer.join()
+# consumer.join()

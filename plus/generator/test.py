@@ -12,5 +12,5 @@ def producer(gen, n):
         gen.send(i)
 
 
-gen = consumer()
-producer(gen, 5)
+comsume = consumer()
+producer(comsume, 5)
