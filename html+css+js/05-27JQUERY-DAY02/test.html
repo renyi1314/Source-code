@@ -6,15 +6,10 @@
     <script src="js/jquery-1.11.3.js"></script>
 </head>
 <body>
-<ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-</ul>
+<p mytest="hehe" id="demo">test</p>
+
 <script>
-    $('ul').on('click','li',function () {
-        $(this).css('color',"#f00")
-    })
+    console.log($('#demo').attr("mytest"))
 </script>
 </body>
 </html>
