@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>myvue</title>
+    <script type="text/javascript" src="js/vue.js"></script>
+</head>
+<body>
+    <div id="test">
+        <div v-on:click="handleClick"> <div v-text="msg"></div></div>
+    </div>
+    <script>
+        new Vue(
+            {
+                el:"#test",
+                data:{
+                    msg:"hello,world"
+                },
+                methods:{
+                    handleClick: function () {
+                        this.msg="nimamaip"
+                    }
+                }
+            }
+        )
+    </script>
+</body>
+</html>
