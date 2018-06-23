@@ -3,8 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>计算属性和侦听器</title>
+    <script type="text/javascript" src="js/vue.js"></script>
 </head>
 <body>
+<div id="root">
+    <input v-model:value="firstName">
+    <input v-model:value="lastName">
+    <div>{{ firstName }}+{{ lastName }}</div>
+    <div>{{ fullName }}</div>
+    <div>{{ count }}</div>
+</div>
+<script>
+    new Vue({
+        el: "#root",
+        data: {
+            firstName: "",
+            lastName: "",
+            count:0
+        },
+        computed: {
+            fullName: function () {
+                return this.firstName + this.lastName
+            }
 
+        },
+        watch:{
+            fullName:function () {
+                this.count ++
+            }
+        }
+    })
+</script>
 </body>
 </html>
