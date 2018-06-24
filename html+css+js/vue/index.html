@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue</title>
+    <script type="text/javascript" src="js/vue.js"></script>
+</head>
+<body>
+{#    方法定义#}
+<div id="root1">
+    <button v-on:click="alertFunction">点我</button>
+</div>
+<script>
+    new Vue({
+        el: "#root1",
+        methods: {
+            alertFunction: function () {
+                alert("This is method")
+            },
+        }
+    })
+</script>
+{#属性绑定和双向绑定#}
+<div id="root2">
+    <div v-text="message"></div>
+    <div>{{ message }}</div>
+    <div v-bind:title="message">绑定title</div>
+    <input v-model:value="message">
+</div>
+<script>
+    new Vue({
+        el: "#root2",
+        data: {
+            message: "This is bind"
+        }
+    })
+</script>
+{#计算属性和监听器#}
+<div id="root3">
+    <input v-model:value="firstName">
+    <input v-model:value="lastName">
+    <div>{{ fullName }}</div>
+    <div>{{ count }}</div>
+</div>
+<script>
+    new Vue({
+        el: "#root3",
+        data: {
+            firstName: "",
+            lastName: "",
+            count: 0,
+        },
+        computed: {
+            fullName: function () {
+                return this.firstName + this.lastName
+            }
+        },
+        watch: {
+            fullName: function () {
+                this.count++
+            }
+        }
+    })
+</script>
+{#if-show#}
+<div id="root4">
+    <div v-if="display">这是内容</div>
+    <button v-on:click="switchDisplay">点我显示/隐藏</button>
+</div>
+<script>
+    new Vue({
+        el: "#root4",
+        data: {
+            display: true,
+        },
+        methods:{
+            switchDisplay:function () {
+                this.display = !this.display
+            }
+        }
+    })
+</script>
+{#for#}
+<div id="root5">
+    <ul v-for="item of items">
+        <li>{{ item.title }}</li>
+    </ul>
+</div>
+<script>
+    new Vue({
+        el:"#root5",
+        data:{
+            items:[
+                {title:"renyi"},
+                {title:"huanghuan"}
+            ]
+        },
+    })
+</script>
+</body>
+</html>
