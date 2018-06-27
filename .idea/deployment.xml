@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="rest" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="192.168.133.133">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/opt/project/source-code" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="crud">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www" local="$PROJECT_DIR$/../crud" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="rest">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/restful_test" local="$PROJECT_DIR$/../restful_test" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@192.168.133.133:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/opt/project/itsource_web/source_web" local="$PROJECT_DIR$/../source_web" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@192.168.133.133:22 (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../crud" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@192.168.133.133:22 (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../crud" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sftp://root@192.168.133.133:22/opt/project/itsource_web/python3/bin/python">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/opt/project/itsource_web/project1/mysite" local="$PROJECT_DIR$/../mysite" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

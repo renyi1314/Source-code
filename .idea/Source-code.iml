@@ -4,5 +4,13 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="hw0621_bak" />
+    <orderEntry type="module" module-name="restful_test" />
+    <orderEntry type="module" module-name="site8" />
+    <orderEntry type="module" module-name="site8" />
+    <orderEntry type="module" module-name="todolist_0623" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Django" />
   </component>
 </module>
