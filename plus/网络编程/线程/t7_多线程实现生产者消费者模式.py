@@ -5,7 +5,6 @@ import time
 data = []
 
 
-
 class Producer(threading.Thread):
 
     def __init__(self):

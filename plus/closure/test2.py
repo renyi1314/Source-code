@@ -1,6 +1,3 @@
-def fun():
-    i = 0
-    print(i)
+import math
 
-
-fun()
+math.sin()

@@ -5,9 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f417eb12-a085-4bc4-a01b-3e3478bb72de" name="Default" comment="vue">
-      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/cgi_demo/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/cate_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/cate_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/cate_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/images/cate_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/data/01.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/data/02.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/11.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/12.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/14.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/ad1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/ad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/cate_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/cate_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/cate_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/images/cate_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html+css+js/05-28Bootstrap-DAY01/mi/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/html+css+js/vue/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/vue/todolist/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../myfirstweb/static/123.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../myfirstweb/static/css/bootstrap.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../myfirstweb/static/css/index.css" afterDir="false" />
@@ -18,10 +77,10 @@
       <change afterPath="$PROJECT_DIR$/../myfirstweb/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../myweb/myweb/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Source-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Source-code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus/decorator/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/plus/decorator/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/123.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/123.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myfirstweb/.idea/myfirstweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/.idea/myfirstweb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myfirstweb/9999" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../myfirstweb/crud/apps.py" beforeDir="false" />
@@ -60,20 +119,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html+css+js/vue/todolist/index.html">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/django/project/IShop/user/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="152">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="属性绑定和双向绑定.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/vue/属性绑定和双向绑定.html">
+      <file leaf-file-name="reg.html" pinned="false" current-in-tab="false">
+        <entry file="file://E:/django/project/IShop/templates/user/reg.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/django/project/IShop/IShop/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/django/project/IShop/user/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://E:/django/project/IShop/user/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="13" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/django/project/IShop/user/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/django/project/web_0627/register/forms.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/django/project/web_0627/register/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/django/project/todolist_0623/work2/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -124,13 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/django/project/homework1/templates/index.html" />
-        <option value="E:/django/project/hw0621/templates/index.html" />
-        <option value="$PROJECT_DIR$/plus/closure/closuer4.py" />
-        <option value="E:/django/project/hw0621_bak/templates/index.html" />
-        <option value="E:/django/project/hw0621_bak/work/views.py" />
-        <option value="$PROJECT_DIR$/basis/file/file_copy1.py" />
-        <option value="$PROJECT_DIR$/basis/反射/test.py" />
         <option value="$PROJECT_DIR$/basis/other/mixin.py" />
         <option value="$PROJECT_DIR$/../source_web/project1/manage.py" />
         <option value="$PROJECT_DIR$/../source_web/project1/source_web/urls.py" />
@@ -175,6 +282,13 @@
         <option value="E:/django/project/todolist_0623/work2/views.py" />
         <option value="E:/django/project/todolist_0623/templates/work2/todo_main.html" />
         <option value="$PROJECT_DIR$/html+css+js/vue/todolist/index.html" />
+        <option value="E:/django/project/IShop/IShop/urls.py" />
+        <option value="E:/django/project/IShop/user/urls.py" />
+        <option value="E:/django/project/IShop/user/forms.py" />
+        <option value="E:/django/project/IShop/templates/user/reg.html" />
+        <option value="E:/django/project/demo/IShop(1)/ishop_user/models.py" />
+        <option value="E:/django/project/IShop/user/views.py" />
+        <option value="E:/django/project/IShop/user/models.py" />
       </list>
     </option>
   </component>
@@ -201,9 +315,9 @@
       <path value="$PROJECT_DIR$/../myweb/static/bower_components/select2/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="335" />
-    <option name="y" value="75" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="156" />
+    <option name="y" value="107" />
     <option name="width" value="1375" />
     <option name="height" value="1030" />
   </component>
@@ -219,34 +333,23 @@
           <expand>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
+              <item name="IShop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="IShop" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="IShop" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
-              <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
-              <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
-              <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="todolist" type="462c0819:PsiDirectoryNode" />
+              <item name="IShop" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +362,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/githubproject/source_web/manage.py" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="E:/django/project/mysite" />
+    <property name="last_opened_file_path" value="E:/django/project/Online-Store" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -267,19 +370,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\django\project\todolist_0623\templates\work2" />
-      <recent name="E:\django\project\todolist_0623\templates\work" />
-      <recent name="E:\django\project\todolist_0623\static\js" />
-      <recent name="E:\django\project\todolist_0623\static" />
-      <recent name="E:\githubproject\source_web" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\django\project\IShop\templates\user" />
       <recent name="E:\githubproject\source_web\project1\templates\book" />
       <recent name="E:\django\project\hw_06_21\templates" />
       <recent name="E:\githubproject\myfirstweb\static\js" />
       <recent name="E:\githubproject\myfirstweb\static\css" />
-      <recent name="E:\githubproject\myfirstweb\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\django\project\demo" />
+      <recent name="E:\django\project\IShop\templates\user" />
+      <recent name="E:\django\project\IShop\templates" />
+      <recent name="E:\django\project\todolist_0623\templates\work2" />
+      <recent name="E:\django\project\todolist_0623\templates\work" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,10 +397,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Unknown.homework11351150210">
+  <component name="RunManager" selected="Unknown.homework1897286806">
     <configuration name="demo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://192.168.133.133/html+css+js/05-26JQUERY-DAY01/demo.html" />
+    <configuration name="iSHOP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/django/project/IShop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IShop" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/django/project/IShop/manage.py" />
+      <option name="PARAMETERS" value="runserver 0.0.0.0:9999" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="manage (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="site8" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -308,34 +429,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="site8" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../site8/manage.py" />
       <option name="PARAMETERS" value="runserver 0.0.0.0:7777" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="source_web" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../source_web/site8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../source_web/site8/manage.py" />
-      <option name="PARAMETERS" value="runserver 0.0.0.0:9999" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="rest_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="restful_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -346,7 +448,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="restful_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../restful_test/manage.py" />
       <option name="PARAMETERS" value="runserver 0.0.0.0:2345" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -354,7 +457,6 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="todolist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="todolist_0623" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -365,7 +467,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="todolist_0623" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:/django/project/todolist_0623/manage.py" />
       <option name="PARAMETERS" value="runserver 0.0.0.0:8888" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -373,7 +476,6 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="site8" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -384,7 +486,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="site8" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../site8/web1/views.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -392,7 +495,6 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="homework1" type="Python.DjangoServer" factoryName="Django server">
-      <module name="homework1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -403,6 +505,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="homework1" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
@@ -414,7 +517,6 @@
       <option name="customRunCommand" value="" />
     </configuration>
     <configuration name="todolist_0623" type="Python.DjangoServer" factoryName="Django server">
-      <module name="todolist_0623" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -426,6 +528,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="todolist_0623" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8888" />
       <option name="host" value="" />
@@ -463,6 +566,7 @@
       <workItem from="1527642925247" duration="3189000" />
       <workItem from="1527663862370" duration="5688000" />
       <workItem from="1530024016813" duration="425000" />
+      <workItem from="1530762609807" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1526780209084</created>
@@ -552,7 +656,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48515000" />
+    <option name="totallyTimeSpent" value="48706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,21 +668,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="125" y="86" width="1100" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12695312" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12615101" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49865952" weight="0.35114503" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5078125" side_tool="true" weight="0.34530386" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4921875" weight="0.34530386" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4921875" weight="0.35174745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49865952" weight="0.17709924" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.48066297" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.45082873" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -591,34 +695,35 @@
       <window_info anchor="right" id="SciView" order="6" />
       <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.49447513" weight="0.24507043" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
+      <window_info anchor="bottom" id="manage.py@IShop" order="7" weight="0.3416009" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3281027" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3281027" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49865952" weight="0.17709924" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32824427" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Remote Host" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18096514" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49865952" weight="0.17709924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49865952" weight="0.35114503" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49329758" visible="true" weight="0.3666191" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.34664765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18096514" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Mongo Explorer" order="0" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5067024" side_tool="true" visible="true" weight="0.3666191" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32824427" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="6" />
       <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.49731904" weight="0.23680456" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.33240223" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3281027" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,12 +779,13 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="116" />
+      <option name="time" value="122" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="request" />
         <watch expression="handler" />
+        <watch expression="request.FILES" />
       </configuration>
       <configuration name="Python.DjangoServer">
         <watch expression="self.META['IPYTHONENABLE']" />
@@ -697,93 +803,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../restful_test/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/restful_test/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/templates/appdemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="208" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/templates/appdemo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../source_web/project1/polls/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" selection-start-column="37" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../source_web/project1/book/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/remote_sources/-643204217/-652086002/django/views/generic/list.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/remote_sources/-643204217/-652086002/django/views/generic/base.py" />
-    <entry file="file://$PROJECT_DIR$/../restful_test/restful_test/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myfirstweb/myfirstweb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/myapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myfirstweb/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/venv_1.8.2/Lib/site-packages/django/views/generic/detail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2907">
-          <caret line="159" column="48" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/vue/js/vue.js" />
     <entry file="file://$PROJECT_DIR$/html+css+js/vue/计算属性和侦听器.html" />
     <entry file="file://$PROJECT_DIR$/../myfirstweb/crud/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -857,13 +876,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1602740496/_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="789" column="8" selection-start-line="789" selection-start-column="8" selection-end-line="789" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1602740496/_io.py" />
     <entry file="file://E:/django/project/todolist_0623/templates/work/todo_main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -925,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/django/project/todolist_0623/work/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/django/project/todolist_0623/templates/work/test3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="706">
@@ -942,9 +948,6 @@
     <entry file="file://$PROJECT_DIR$/html+css+js/vue/定义方法.html" />
     <entry file="file://$PROJECT_DIR$/html+css+js/vue/index.html" />
     <entry file="file://$PROJECT_DIR$/html+css+js/vue/if-show-for.html" />
-    <entry file="file://$PROJECT_DIR$/../crud/html/home.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://E:/django/project/todolist_0623/templates/work2/todo_main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -973,24 +976,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/django/project/todolist_0623/work2/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html+css+js/vue/属性绑定和双向绑定.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html+css+js/vue/todolist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="688">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/IShop/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/todolist_0623/work/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/todolist_0623/work2/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/demo/IShop/.idea/misc.xml" />
+    <entry file="file://E:/django/project/demo/IShop(1)/ishop_user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/demo/IShop(1)/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/django/project/demo/IShop(1)/templates/ishop_user/reg.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/django/project/IShop/templates/user/infor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/IShop/IShop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/web_0627/register/forms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/django/project/web_0627/register/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/django/project/demo/IShop(1)/ishop_user/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/IShop/user/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/IShop/templates/user/reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/demo/IShop(1)/ishop_user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/IShop/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/IShop/user/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/django/project/IShop/user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="13" selection-end-column="70" />
         </state>
       </provider>
     </entry>

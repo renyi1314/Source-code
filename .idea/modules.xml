@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://E:/django/project/IShop/.idea/IShop.iml" filepath="E:/django/project/IShop/.idea/IShop.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Source-code.iml" filepath="$PROJECT_DIR$/.idea/Source-code.iml" />
       <module fileurl="file://F:/yuandaima/files/Django-day002/code/.idea/code.iml" filepath="F:/yuandaima/files/Django-day002/code/.idea/code.iml" />
       <module fileurl="file://$PROJECT_DIR$/../crud/.idea/crud.iml" filepath="$PROJECT_DIR$/../crud/.idea/crud.iml" />
+      <module fileurl="file://E:/django/project/demo/.idea/demo.iml" filepath="E:/django/project/demo/.idea/demo.iml" />
       <module fileurl="file://E:/django/project/homework1/.idea/homework1.iml" filepath="E:/django/project/homework1/.idea/homework1.iml" />
       <module fileurl="file://E:/django/project/hw0621_bak/.idea/hw0621_bak.iml" filepath="E:/django/project/hw0621_bak/.idea/hw0621_bak.iml" />
       <module fileurl="file://$PROJECT_DIR$/../myfirstweb/.idea/myfirstweb.iml" filepath="$PROJECT_DIR$/../myfirstweb/.idea/myfirstweb.iml" />
@@ -15,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/../site8/.idea/site8.iml" filepath="$PROJECT_DIR$/../site8/.idea/site8.iml" />
       <module fileurl="file://$PROJECT_DIR$/../source_web/.idea/source_web.iml" filepath="$PROJECT_DIR$/../source_web/.idea/source_web.iml" />
       <module fileurl="file://E:/django/project/todolist_0623/.idea/todolist_0623.iml" filepath="E:/django/project/todolist_0623/.idea/todolist_0623.iml" />
+      <module fileurl="file://E:/django/project/web_0627/.idea/web_0627.iml" filepath="E:/django/project/web_0627/.idea/web_0627.iml" />
     </modules>
   </component>
 </project>

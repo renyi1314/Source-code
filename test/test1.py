@@ -1,9 +1,42 @@
-import random
+from functools import wraps
 
-card_type = ['梅花', '红桃', '黑桃', '方片']
-card_number = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
 
-cards = [j + i for i in card_number for j in card_type]
+def single(cls):
+    instance = {}
 
-random.shuffle(cards)
-print(cards)
+    @wraps(cls)
+    def decorator(*args, **kwargs):
+        if instance.get('cls') is None:
+            instance['cls'] = cls(*args, **kwargs)
+        return instance['cls']
+
+    return decorator
+
+
+@single
+class Person:
+    pass
+
+
+@single
+class Person2:
+    pass
+
+
+a = Person()
+b = Person2()
+
+print(id(a))
+print(id(b))
+
+# class Person:
+#
+#     def __new__(cls, *args, **kwargs):
+#         if not hasattr(cls, 'instance'):
+#             cls.instance = super(Person, cls).__new__(cls)
+#         return cls.instance
+#
+#
+# a = Person()
+# b = Person()
+# print(id(a), id(b))

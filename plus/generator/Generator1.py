@@ -2,8 +2,7 @@ def consumer():
     last = ''
     while True:
         receival = yield last
-        if receival is not None:
-            print('Consume %s' % receival)
+        print('Consume %s' % receival)
 
 
 def producer(gen, n):
@@ -12,7 +11,8 @@ def producer(gen, n):
     while x < n:
         x += 1
         print('Produce %s' % x)
-        print(gen.__next__())
+        gen.__next__()
+        # print(gen.__next__())
         # gen.send(x)
 
 
