@@ -1,79 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://E:/django/project/venv1.11/Lib/site-packages/django/urls/base.py" description="return force_text(iri_to_uri(resolver._reverse_wit..." line="90" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="f417eb12-a085-4bc4-a01b-3e3478bb72de" name="Default" comment="vue">
-      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/vue/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html+css+js/vue/todolist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myfirstweb/static/123.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myfirstweb/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myfirstweb/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myfirstweb/static/css/mystyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myfirstweb/static/images/girl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myfirstweb/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myfirstweb/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myfirstweb/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myweb/myweb/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus/sort/quickSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Source-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Source-code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/.idea/myfirstweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/.idea/myfirstweb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/9999" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/crud/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/django_wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/myfirstweb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/myfirstweb/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/myfirstweb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/myfirstweb/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/myfirstweb/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/myfirstweb/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/myfirstweb/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/static/123.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/templates/js_add_sub.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/templates/js_add_sub.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/uwsgi.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/web1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/crud/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/web1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/crud/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/web1/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/crud/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/web1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/crud/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/web1/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/crud/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myfirstweb/web1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myfirstweb/crud/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myweb/.idea/myweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../myweb/.idea/myweb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myweb/app2/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myweb/app2/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myweb/app2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myweb/app2/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myweb/myweb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myweb/myweb/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myweb/myweb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myweb/myweb/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myweb/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myweb/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basis/反射/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/basis/反射/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus/decorator/partial123.py" beforeDir="false" afterPath="$PROJECT_DIR$/plus/decorator/partial123.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Source_code$quickSort.coverage" NAME="quickSort Coverage Results" MODIFIED="1550483473060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plus/sort" />
+    <SUITE FILE_PATH="coverage/Source_code$bubble_sort1.coverage" NAME="bubble_sort1 Coverage Results" MODIFIED="1550476683466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plus/sort" />
+    <SUITE FILE_PATH="coverage/Source_code$partial123.coverage" NAME="partial123 Coverage Results" MODIFIED="1550496940493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plus/decorator" />
+    <SUITE FILE_PATH="coverage/Source_code$123.coverage" NAME="123 Coverage Results" MODIFIED="1548842528356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html+css+js/vue/todolist/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plus/decorator/partial123.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state>
+              <caret selection-end-line="41" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="属性绑定和双向绑定.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html+css+js/vue/属性绑定和双向绑定.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basis/反射/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basis/反射/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plus/decorator/decorator_single_object.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plus/decorator/decorator6.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plus/decorator/decorator5.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plus/decorator/decorator4.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plus/decorator/decorator3.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plus/decorator/decorator2.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plus/decorator/decorator1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -124,13 +147,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/django/project/homework1/templates/index.html" />
-        <option value="E:/django/project/hw0621/templates/index.html" />
-        <option value="$PROJECT_DIR$/plus/closure/closuer4.py" />
         <option value="E:/django/project/hw0621_bak/templates/index.html" />
         <option value="E:/django/project/hw0621_bak/work/views.py" />
         <option value="$PROJECT_DIR$/basis/file/file_copy1.py" />
-        <option value="$PROJECT_DIR$/basis/反射/test.py" />
         <option value="$PROJECT_DIR$/basis/other/mixin.py" />
         <option value="$PROJECT_DIR$/../source_web/project1/manage.py" />
         <option value="$PROJECT_DIR$/../source_web/project1/source_web/urls.py" />
@@ -175,37 +194,18 @@
         <option value="E:/django/project/todolist_0623/work2/views.py" />
         <option value="E:/django/project/todolist_0623/templates/work2/todo_main.html" />
         <option value="$PROJECT_DIR$/html+css+js/vue/todolist/index.html" />
+        <option value="$PROJECT_DIR$/test/test2.py" />
+        <option value="$PROJECT_DIR$/plus/sort/quickSort.py" />
+        <option value="$PROJECT_DIR$/plus/decorator/partial123.py" />
+        <option value="$PROJECT_DIR$/basis/反射/test.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/Flot/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/bootstrap-datepicker/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/bootstrap-daterangepicker/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/bootstrap/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/chart.js/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/ckeditor/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/eve-raphael/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/ion.rangeSlider/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/jquery-knob/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/jquery-slimscroll/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/jquery-ui/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/morris.js/package.json" />
-      <path value="$PROJECT_DIR$/../myweb/static/bower_components/select2/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="335" />
-    <option name="y" value="75" />
+    <option name="x" value="427" />
+    <option name="y" value="12" />
     <option name="width" value="1375" />
-    <option name="height" value="1030" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,16 +219,28 @@
           <expand>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="basis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="basis" type="462c0819:PsiDirectoryNode" />
+              <item name="反射" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
@@ -238,15 +250,12 @@
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Source-code" type="462c0819:PsiDirectoryNode" />
-              <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="playbook" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Source-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Source-code" type="462c0819:PsiDirectoryNode" />
-              <item name="html+css+js" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="todolist" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,27 +268,27 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/githubproject/source_web/manage.py" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="E:/django/project/mysite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leetcode_python" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\django\project\todolist_0623\templates\work2" />
-      <recent name="E:\django\project\todolist_0623\templates\work" />
-      <recent name="E:\django\project\todolist_0623\static\js" />
-      <recent name="E:\django\project\todolist_0623\static" />
-      <recent name="E:\githubproject\source_web" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\githubproject\source_web\project1\templates\book" />
       <recent name="E:\django\project\hw_06_21\templates" />
       <recent name="E:\githubproject\myfirstweb\static\js" />
       <recent name="E:\githubproject\myfirstweb\static\css" />
       <recent name="E:\githubproject\myfirstweb\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\django\project\todolist_0623\templates\work2" />
+      <recent name="E:\django\project\todolist_0623\templates\work" />
+      <recent name="E:\django\project\todolist_0623\static\js" />
+      <recent name="E:\django\project\todolist_0623\static" />
+      <recent name="E:\githubproject\source_web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,83 +303,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Unknown.homework11351150210">
-    <configuration name="demo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://192.168.133.133/html+css+js/05-26JQUERY-DAY01/demo.html" />
-    <configuration name="manage (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="site8" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../site8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../site8/manage.py" />
-      <option name="PARAMETERS" value="runserver 0.0.0.0:7777" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+  <component name="RunManager" selected="Python.partial123">
+    <configuration name="demo.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://192.168.133.133/html+css+js/05-26JQUERY-DAY01/demo.html">
+      <method v="2" />
     </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="source_web" />
+    <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Source-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../source_web/site8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../source_web/site8/manage.py" />
-      <option name="PARAMETERS" value="runserver 0.0.0.0:9999" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/123.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="rest_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="restful_test" />
+    <configuration name="bubble_sort1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Source-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../restful_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plus/sort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../restful_test/manage.py" />
-      <option name="PARAMETERS" value="runserver 0.0.0.0:2345" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plus/sort/bubble_sort1.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="todolist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="todolist_0623" />
+    <configuration name="partial123" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Source-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/django/project/todolist_0623" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plus/decorator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:/django/project/todolist_0623/manage.py" />
-      <option name="PARAMETERS" value="runserver 0.0.0.0:8888" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plus/decorator/partial123.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="quickSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Source-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plus/sort" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plus/sort/quickSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="site8" />
@@ -390,6 +413,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="homework1" type="Python.DjangoServer" factoryName="Django server">
       <module name="homework1" />
@@ -412,6 +438,7 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="todolist_0623" type="Python.DjangoServer" factoryName="Django server">
       <module name="todolist_0623" />
@@ -435,10 +462,26 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Django server.homework1" />
+      <item itemvalue="Django server.todolist_0623" />
       <item itemvalue="JavaScript Debug.demo.html" />
+      <item itemvalue="Python.views" />
+      <item itemvalue="Python.123" />
+      <item itemvalue="Python.partial123" />
+      <item itemvalue="Python.bubble_sort1" />
+      <item itemvalue="Python.quickSort" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.partial123" />
+        <item itemvalue="Python.quickSort" />
+        <item itemvalue="Python.bubble_sort1" />
+        <item itemvalue="Python.123" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -463,6 +506,15 @@
       <workItem from="1527642925247" duration="3189000" />
       <workItem from="1527663862370" duration="5688000" />
       <workItem from="1530024016813" duration="425000" />
+      <workItem from="1548841778326" duration="9000" />
+      <workItem from="1548841800142" duration="1275000" />
+      <workItem from="1550068898093" duration="1300000" />
+      <workItem from="1550464664364" duration="13638000" />
+      <workItem from="1550538197784" duration="4435000" />
+      <workItem from="1551013153863" duration="659000" />
+      <workItem from="1551027985586" duration="640000" />
+      <workItem from="1551751709708" duration="615000" />
+      <workItem from="1551786027002" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1526780209084</created>
@@ -552,7 +604,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48515000" />
+    <option name="totallyTimeSpent" value="71849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,62 +616,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Remote Host" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12695312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4921875" weight="0.34333333" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.48" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49865952" weight="0.35114503" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5078125" side_tool="true" weight="0.34530386" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4921875" weight="0.34530386" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3281027" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49865952" weight="0.17709924" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.48066297" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" id="Mongo Explorer" order="0" weight="0.3297587" />
-      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.33240223" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="6" />
       <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.49447513" weight="0.24507043" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3281027" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3281027" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49865952" weight="0.17709924" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Remote Host" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18096514" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5078125" side_tool="true" weight="0.34530386" />
+      <window_info anchor="right" id="Mongo Explorer" order="0" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49865952" weight="0.35114503" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49329758" visible="true" weight="0.3666191" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.34664765" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Mongo Explorer" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5067024" side_tool="true" visible="true" weight="0.3666191" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32824427" />
       <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.49731904" weight="0.23680456" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.33240223" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -649,11 +673,25 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../myfirstweb" />
+    </ignored-roots>
     <MESSAGE value="1" />
     <MESSAGE value="database" />
     <MESSAGE value="basis" />
@@ -674,7 +712,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="116" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -697,300 +734,147 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../restful_test/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/restful_test/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/templates/appdemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="208" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/templates/appdemo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../source_web/project1/polls/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" selection-start-column="37" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../source_web/project1/book/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/remote_sources/-643204217/-652086002/django/views/generic/list.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/remote_sources/-643204217/-652086002/django/views/generic/base.py" />
-    <entry file="file://$PROJECT_DIR$/../restful_test/restful_test/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myfirstweb/myfirstweb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/myapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myfirstweb/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/venv_1.8.2/Lib/site-packages/django/views/generic/detail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2907">
-          <caret line="159" column="48" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/vue/js/vue.js" />
-    <entry file="file://$PROJECT_DIR$/html+css+js/vue/计算属性和侦听器.html" />
-    <entry file="file://$PROJECT_DIR$/../myfirstweb/crud/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/venv_1.8.2/Lib/site-packages/django/views/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/work/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/myapp/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../restful_test/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python2/Lib/site-packages/django/utils/datastructures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/django/project/venv_1.8.2/Lib/site-packages/django/views/generic/base.py" />
+    <entry file="file://E:/django/project/todolist_0623/work/urls.py" />
+    <entry file="file://$PROJECT_DIR$/../restful_test/myapp/base.py" />
+    <entry file="file://$PROJECT_DIR$/../restful_test/manage.py" />
+    <entry file="file://C:/Python2/Lib/site-packages/django/utils/datastructures.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/remote_sources/-1047423274/-289277395/billiard/pool.py" />
-    <entry file="file://C:/Python2/Lib/site-packages/django/http/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4503">
-          <caret line="260" column="12" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python2/Lib/site-packages/django/http/request.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1047423274/_io.py" />
-    <entry file="file://$PROJECT_DIR$/../restful_test/myapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/venv_1.8.2/Lib/site-packages/django/http/multipartparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="120" column="56" selection-start-line="120" selection-start-column="56" selection-end-line="120" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/venv_1.8.2/Lib/site-packages/django/http/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3002">
-          <caret line="180" column="15" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1602740496/_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="789" column="8" selection-start-line="789" selection-start-column="8" selection-end-line="789" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/templates/work/todo_main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/todolist_0623/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python3/Lib/site-packages/django/http/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3021">
-          <caret line="181" column="51" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/templates/work/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/templates/work/todo_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260" />
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/templates/work/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="56" column="8" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/todolist_0623/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/work2/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/work/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/templates/work/test3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../restful_test/myapp/views.py" />
+    <entry file="file://E:/django/project/venv_1.8.2/Lib/site-packages/django/http/multipartparser.py" />
+    <entry file="file://E:/django/project/venv_1.8.2/Lib/site-packages/django/http/request.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1602740496/_io.py" />
+    <entry file="file://E:/django/project/todolist_0623/templates/work/todo_main.html" />
+    <entry file="file://E:/django/project/todolist_0623/todolist_0623/settings.py" />
+    <entry file="file://E:/django/project/todolist_0623/manage.py" />
+    <entry file="file://C:/Python3/Lib/site-packages/django/http/request.py" />
+    <entry file="file://E:/django/project/todolist_0623/templates/work/test2.html" />
+    <entry file="file://E:/django/project/todolist_0623/templates/work/todo_add.html" />
+    <entry file="file://E:/django/project/todolist_0623/templates/work/test.html" />
+    <entry file="file://E:/django/project/todolist_0623/todolist_0623/urls.py" />
+    <entry file="file://E:/django/project/todolist_0623/work2/urls.py" />
+    <entry file="file://E:/django/project/todolist_0623/work/views.py" />
+    <entry file="file://E:/django/project/todolist_0623/templates/work/test3.html" />
     <entry file="file://$PROJECT_DIR$/html+css+js/vue/定义方法.html" />
     <entry file="file://$PROJECT_DIR$/html+css+js/vue/index.html" />
     <entry file="file://$PROJECT_DIR$/html+css+js/vue/if-show-for.html" />
-    <entry file="file://$PROJECT_DIR$/../crud/html/home.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/templates/work2/todo_main.html">
+    <entry file="file://$PROJECT_DIR$/../crud/html/home.html" />
+    <entry file="file://E:/django/project/todolist_0623/templates/work2/todo_main.html" />
+    <entry file="file://E:/django/project/todolist_0623/work2/models.py" />
+    <entry file="file://E:/django/project/todolist_0623/work/models.py" />
+    <entry file="file://$PROJECT_DIR$/../crud/html/index.html" />
+    <entry file="file://E:/django/project/todolist_0623/work2/views.py" />
+    <entry file="file://$PROJECT_DIR$/html+css+js/vue/todolist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/work2/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/work/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crud/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/django/project/todolist_0623/work2/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="152">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html+css+js/vue/属性绑定和双向绑定.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html+css+js/vue/todolist/index.html">
+    <entry file="file://$PROJECT_DIR$/test/123.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state>
+          <caret selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/decorator/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/sort/selection_sort1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/sort/bubble_sort1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-727137387/-2143383273/functools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/sort/quickSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/decorator/decorator_single_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/decorator/decorator6.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/decorator/decorator5.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/decorator/decorator4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/decorator/decorator3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/decorator/decorator2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/decorator/decorator1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/decorator/partial123.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basis/反射/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basis/反射/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

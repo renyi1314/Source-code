@@ -16,4 +16,3 @@ res2 = getattr(obj, 'func')
 r2 = res()
 print("-------")
 print(r2)
-

@@ -9,6 +9,8 @@
     <orderEntry type="module" module-name="site8" />
     <orderEntry type="module" module-name="site8" />
     <orderEntry type="module" module-name="todolist_0623" />
+    <orderEntry type="module" module-name="MxShop" />
+    <orderEntry type="module" module-name="vueShop" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
