@@ -33,9 +33,6 @@ def fn():
 
 def decorator_single_obj(cls, *args, **kwargs):
     instance = {}  # 创建字典来保存实例
-    # s = fn
-    # print(cls.__module__)
-
     @decora(cls)
     def get_instance(*args, **kwargs):
         if cls not in instance:  # 若实例不存在则新建

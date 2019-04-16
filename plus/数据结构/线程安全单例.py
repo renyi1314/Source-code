@@ -16,13 +16,23 @@ def synchronized(func):
 def Singleton(cls):
     instances = {}
 
-    # @synchronized
-    def get_instance(*args, **kw):
+    @synchronized
+    def get_instance(*args, **kwargs):
         if cls not in instances:
-            instances[cls] = cls(*args, **kw)
+            instances[cls] = cls(*args, **kwargs)
         return instances[cls]
 
     return get_instance
+
+
+def syssingle(func):
+    func.__lock__ = threading.Lock()
+
+    def decora(*args, **kwargs):
+        with func.__lock__:
+            return func(*args, **kwargs)
+
+    return decora
 
 
 def worker():
@@ -38,7 +48,7 @@ class test():
 
 if __name__ == "__main__":
     task_list = []
-    for one in range(100000):
+    for one in range(10000):
         t = threading.Thread(target=worker)
         task_list.append(t)
 

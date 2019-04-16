@@ -1,21 +1,11 @@
-# 生成器
-def fib():
-    a, b = 0, 1
-    while True:
-        yield b
-        a, b = b, a + b
+def test1():
+    print("------")
+    return 1, 2, 3
 
 
-res = fib()
-print(next(res))
+def test2():
+    a, b, c = test1()
+    print(c, b, a)
 
 
-# 指定位置的值
-def fib2(n):
-    a, b, i = 0, 1, 1
-    while i < n:
-        a, b = b, a + b
-        i += 1
-    return b
-
-
+test2()

@@ -1,0 +1,1 @@
+"ETC_BTC".lower()
