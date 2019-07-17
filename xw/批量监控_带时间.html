@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>批量关系图</title>
+    <style>::-webkit-scrollbar {
+        display: none;
+    }
+
+    html, body {
+        overflow: hidden;
+        margin: 0;
+    }</style>
+</head>
+<body>
+<div id="mountNode"></div>
+<div>123</div>
+<script>/*Fixing iframe window.innerHeight 0 issue in Safari*/
+document.body.clientHeight;</script>
+<script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.0.2/build/g6.js"></script>
+<script src="https://gw.alipayobjects.com/os/antv/assets/lib/jquery-3.2.1.min.js"></script>
+<script src="https://gw.alipayobjects.com/os/lib/d3/5.9.1/dist/d3.min.js"></script>
+<script src="https://gw.alipayobjects.com/os/lib/d3-sankey/0.12.1/dist/d3-sankey.min.js"></script>
+<script>
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+    var colors = ['#1890FF', '#73C9E6', '#13C2C2', '#6CD9B3', '#2FC25B', '#9DD96C', '#FACC14', '#E6965C', '#F04864', '#D66BCA', '#8543E0', '#8E77ED', '#3436C7', '#737EE6', '#223273', '#7EA2E6'];
+
+    G6.registerEdge('sankey', {
+        draw: function draw(cfg, group) {
+            var data = cfg.data;
+            var shape = group.addShape('path', {
+                attrs: {
+                    stroke: 'rgba(0,0,0,0.1)',
+                    lineWidth: Math.max(1, data.width),
+                    path: pathFn(data)
+                }
+            });
+            return shape;
+        }
+    }, 'line');
+    var graph = new G6.Graph({
+        container: 'mountNode',
+        width: width,
+        height: height,
+        nodeStyle: {
+            default: {
+                stroke: null
+            }
+        },
+        edgeStyle: {
+            active: {
+                stroke: 'rgba(0,0,0,0.3)'
+            }
+        }
+    });
+    var pathFn = d3.sankeyLinkHorizontal();
+    var sankey = d3.sankey().nodeWidth(15).nodePadding(10).extent([[1, 5], [width - 10, height - 5]]);
+    var energy = {
+        "nodes": [{'name': '消费信贷核心-晚间日终批量', 'id': 0}, {'name': '消费信贷核心-第三方交易服务', 'id': 1}, {
+            'name': '委托贷款平台',
+            'id': 2
+        }, {'name': '好人贷-JB3.0切日批量', 'id': 3}, {'name': '委贷新系统', 'id': 4}, {
+            'name': '消费信贷核心-主批量文件迁移批量',
+            'id': 5
+        }, {'name': 'A3:好人贷-好运宝文件入库批量', 'id': 6}, {'name': '好人贷-好运宝自动扣款批量', 'id': 7}, {
+            'name': '核心系统、ECIF',
+            'id': 8
+        }, {'name': '运营操作平台', 'id': 9}, {'name': '消费信贷核心-主批量文件迁移批量', 'id': 10}, {
+            'name': '主批量代偿回购迁移',
+            'id': 11
+        }, {'name': '大总账（时效业务）', 'id': 12}, {'name': '合作方管理平台日终批量', 'id': 13}, {
+            'name': '合作方管理平台日始批量',
+            'id': 14
+        }, {'name': '联合信贷管理系统夜间主批量', 'id': 15}, {'name': '对公信贷', 'id': 16}, {
+            'name': '大数据平台',
+            'id': 17
+        }, {'name': '1104报送系统', 'id': 18}, {'name': '理财综合管理系统', 'id': 19}, {
+            'name': '大总账（非时效业务）',
+            'id': 20
+        }, {'name': '贷后管理平台', 'id': 21}, {'name': '资产证券化系统', 'id': 22}, {
+            'name': '1104监管报送（时效）',
+            'id': 23
+        }, {'name': '消费信贷核心-京东金条贷后文件处理批量', 'id': 24}, {'name': '好人贷-XM（日间)', 'id': 25}, {
+            'name': '好人贷-JB（日间）',
+            'id': 26
+        }, {'name': '趣店-QD（日间）', 'id': 27}, {'name': '委贷-QD文件读取批量', 'id': 28}, {
+            'name': '联合信贷管理系统趣店联合贷日间批量',
+            'id': 29
+        }, {'name': '好人贷-JB3.0（日间）', 'id': 30}, {'name': '大总账（第三方）', 'id': 31}, {
+            'name': '消费信贷核心-配置化批扣批量',
+            'id': 32
+        }, {'name': '好人贷-FQL2还款文件', 'id': 33}, {'name': '消费信贷核心-工行联合贷批扣', 'id': 34},
+            {'name': '综合资金管理平台日终批量', 'id': 35},
+            {'name': '结束', 'id': 36},
+            {'name': '0:00', 'id': 37},
+            {'name': '1:00', 'id': 38},
+            {'name': '2:00', 'id': 39},
+            {'name': '3:00', 'id': 40},
+            {'name': '4:00', 'id': 41},
+            {'name': '5:00', 'id': 42},
+            {'name': '6:00', 'id': 43},
+            {'name': '7:00', 'id': 44},
+            {'name': '8:00', 'id': 45},
+            {'name': '9:00', 'id': 46},
+            {'name': '10:00', 'id': 47},
+            {'name': '11:00', 'id': 48},
+            {'name': '12:00', 'id': 49},
+            {'name': '13:00', 'id': 50},
+            {'name': '14:00', 'id': 51},
+            {'name': '15:00', 'id': 52},
+            {'name': '16:00', 'id': 53},
+            {'name': '17:00', 'id': 54},
+            {'name': '18:00', 'id': 55},
+            {'name': '19:00', 'id': 56},
+            {'name': '20:00', 'id': 57},
+            {'name': '21:00', 'id': 58},
+            {'name': '22:00', 'id': 59},
+            {'name': '23:00', 'id': 60},
+            {'name': '24:00', 'id': 61},
+        ],
+        "links": [
+            {"source": 0, "target": 16, "value": 10},
+            {"source": 0, "target": 34, "value": 10},
+            {"source": 0, "target": 13, "value": 10},
+            {"source": 11, "target": 14, "value": 10},
+            {"source": 13, "target": 16, "value": 10},
+            {"source": 8, "target": 16, "value": 10},
+            {"source": 26, "target": 29, "value": 10},
+            {"source": 3, "target": 31, "value": 10},
+            {"source": 26, "target": 31, "value": 10},
+            {"source": 30, "target": 31, "value": 10},
+            {"source": 28, "target": 31, "value": 10},
+            {"source": 25, "target": 31, "value": 10},
+            {"source": 24, "target": 31, "value": 10},
+            {"source": 5, "target": 12, "value": 10},
+            {"source": 0, "target": 12, "value": 10},
+            {"source": 8, "target": 12, "value": 10},
+            {"source": 28, "target": 12, "value": 10},
+            {"source": 3, "target": 12, "value": 10},
+            {"source": 24, "target": 12, "value": 10},
+            {"source": 17, "target": 20, "value": 10},
+            {"source": 0, "target": 36, "value": 10},
+            {"source": 1, "target": 36, "value": 10},
+            {"source": 2, "target": 36, "value": 10},
+            {"source": 3, "target": 36, "value": 10},
+            {"source": 4, "target": 36, "value": 10},
+            {"source": 5, "target": 36, "value": 10},
+            {"source": 6, "target": 36, "value": 10},
+            {"source": 7, "target": 36, "value": 10},
+            {"source": 8, "target": 36, "value": 10},
+            {"source": 9, "target": 36, "value": 10},
+            {"source": 10, "target": 36, "value": 10},
+            {"source": 11, "target": 36, "value": 10},
+            {"source": 12, "target": 36, "value": 10},
+            {"source": 13, "target": 36, "value": 10},
+            {"source": 14, "target": 36, "value": 10},
+            {"source": 15, "target": 36, "value": 10},
+            {"source": 16, "target": 36, "value": 10},
+            {"source": 17, "target": 36, "value": 10},
+            {"source": 18, "target": 36, "value": 10},
+            {"source": 19, "target": 36, "value": 10},
+            {"source": 20, "target": 36, "value": 10},
+            {"source": 21, "target": 36, "value": 10},
+            {"source": 22, "target": 36, "value": 10},
+            {"source": 23, "target": 36, "value": 10},
+            {"source": 24, "target": 36, "value": 10},
+            {"source": 25, "target": 36, "value": 10},
+            {"source": 26, "target": 36, "value": 10},
+            {"source": 27, "target": 36, "value": 10},
+            {"source": 28, "target": 36, "value": 10},
+            {"source": 29, "target": 36, "value": 10},
+            {"source": 30, "target": 36, "value": 10},
+            {"source": 31, "target": 36, "value": 10},
+            {"source": 32, "target": 36, "value": 10},
+            {"source": 33, "target": 36, "value": 10},
+            {"source": 34, "target": 36, "value": 10},
+            {"source": 35, "target": 36, "value": 10},
+            {"source": 37, "target": 38, "value": 1},
+            {"source": 38, "target": 39, "value": 1},
+            {"source": 39, "target": 40, "value": 1},
+            {"source": 40, "target": 41, "value": 1},
+            {"source": 41, "target": 42, "value": 1},
+            {"source": 42, "target": 43, "value": 1},
+            {"source": 43, "target": 44, "value": 1},
+            {"source": 44, "target": 45, "value": 1},
+            {"source": 45, "target": 46, "value": 1},
+            {"source": 46, "target": 47, "value": 1},
+            {"source": 47, "target": 48, "value": 1},
+            {"source": 48, "target": 49, "value": 1},
+            {"source": 49, "target": 50, "value": 1},
+            {"source": 50, "target": 51, "value": 1},
+            {"source": 51, "target": 52, "value": 1},
+            {"source": 52, "target": 53, "value": 1},
+            {"source": 53, "target": 54, "value": 1},
+            {"source": 54, "target": 55, "value": 1},
+            {"source": 55, "target": 56, "value": 1},
+            {"source": 56, "target": 57, "value": 1},
+            {"source": 57, "target": 58, "value": 1},
+            {"source": 58, "target": 59, "value": 1},
+            {"source": 59, "target": 60, "value": 1},
+            {"source": 60, "target": 61, "value": 1},
+            {"source": 52, "target": 15, "value": 1},
+
+        ]
+    };
+    sankey(energy);
+    var nodes = [];
+    var edges = [];
+    energy.nodes.forEach(function (node) {
+        var nodeWidth = node.x1 - node.x0;
+        var nodeHeight = node.y1 - node.y0;
+        nodes.push({
+            id: node.name,
+            label: node.name,
+            style: {
+                fill: colors[Math.round(Math.random() * 15)]
+            },
+            x: node.x0 + 7.5,
+            y: node.y0 + nodeHeight / 2,
+            size: [nodeWidth, nodeHeight],
+            shape: 'rect',
+            labelCfg: {
+                position: node.x1 > width / 2 ? 'left' : 'right',
+                offset: 5
+            }
+        });
+    });
+    energy.links.forEach(function (edge) {
+        var source = edge.source;
+        var target = edge.target;
+        edges.push({
+            id: source.name + ':' + target.name,
+            source: source.name,
+            target: target.name,
+            shape: 'sankey',
+            data: edge
+        });
+    });
+    graph.data({
+        nodes: nodes,
+        edges: edges
+    });
+    graph.render();
+    graph.fitView();
+    graph.on('edge:mouseenter', function (e) {
+        graph.setItemState(e.item, 'active', true);
+    });
+    graph.on('edge:mouseleave', function (e) {
+        graph.setItemState(e.item, 'active', false);
+    });
+
+</script>
+</body>
+</html>

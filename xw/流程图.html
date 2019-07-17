@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>流程图</title>
+            <style>::-webkit-scrollbar {
+                display: none;
+            }
+
+            html, body {
+                overflow: hidden;
+                margin: 0;
+            }</style>
+        </head>
+<body>
+<div id="mountNode"></div>
+<script>/*Fixing iframe window.innerHeight 0 issue in Safari*/
+document.body.clientHeight;</script>
+<script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.0.2/build/g6.js"></script>
+<script src="https://gw.alipayobjects.com/os/antv/assets/lib/jquery-3.2.1.min.js"></script>
+<script src="https://gw.alipayobjects.com/os/lib/dagre/0.8.4/dist/dagre.min.js"></script>
+<script>
+    var data = {
+        nodes: [{
+            id: '收集日志'
+        }, {
+            id: '入 es 集群'
+        }, {
+            id: '入 hdfs'
+        }, {
+            id: 'hive 计算'
+        }, {
+            id: 'report'
+        },
+            {id: '消费信贷'},
+            {id: '核心'},
+            {id: '00'},
+            {id: '01'},
+            {id: '02'},
+            {id: '03'},
+            {id: '04'},
+            {id: '05'},
+            {id: '06'},
+            {id: '07'},
+            {id: '08'},
+            {id: '09'},
+            {id: '10'},
+            {id: '11'},
+            {id: '12'},
+            {id: '13'},
+        ],
+        edges: [{
+            source: '收集日志',
+            target: '入 es 集群'
+        }, {
+            source: '收集日志',
+            target: '入 hdfs'
+        }, {
+            source: '入 hdfs',
+            target: 'hive 计算'
+        }, {
+            source: '入 es 集群',
+            target: 'hive 计算'
+        }, {
+            source: 'hive 计算',
+            target: 'report'
+        },
+            {
+                source: '核心',
+                target: '消费信贷'
+            }, {
+                source: '00',
+                target: '01'
+            }, {
+                source: '01',
+                target: '02'
+            }, {
+                source: '02',
+                target: '03'
+            },
+        ]
+    };
+    var g = new dagre.graphlib.Graph();
+    g.setDefaultEdgeLabel(function () {
+        return {};
+    });
+    g.setGraph({
+        rankdir: 'TB'
+    });
+    data.nodes.forEach(function (node) {
+        node.label = node.id;
+        g.setNode(node.id, {
+            width: 150,
+            height: 50
+        });
+    });
+    data.edges.forEach(function (edge) {
+        g.setEdge(edge.source, edge.target);
+    });
+    dagre.layout(g);
+    var coord = void 0;
+    g.nodes().forEach(function (node, i) {
+        coord = g.node(node);
+        data.nodes[i].x = coord.x;
+        data.nodes[i].y = coord.y;
+    });
+    g.edges().forEach(function (edge, i) {
+        coord = g.edge(edge);
+        data.edges[i].startPoint = coord.points[0];
+        data.edges[i].endPoint = coord.points[coord.points.length - 1];
+        data.edges[i].controlPoints = coord.points.slice(1, coord.points.length - 1);
+    });
+    G6.registerNode('operation', {
+        drawShape: function drawShape(cfg, group) {
+            var rect = group.addShape('rect', {
+                attrs: {
+                    x: -75,
+                    y: -25,
+                    width: 150,
+                    height: 50,
+                    radius: 10,
+                    stroke: '#00C0A5',
+                    fill: '#92949F',
+                    fillOpacity: 0.45,
+                    lineWidth: 2
+                }
+            });
+            return rect;
+        }
+    }, 'single-shape');
+
+    var graph = new G6.Graph({
+        container: 'mountNode',
+        width: window.innerWidth,
+        height: window.innerHeight,
+        pixelRatio: 2,
+        modes: {
+            default: ['drag-canvas', 'zoom-canvas']
+        },
+        defaultNode: {
+            shape: 'operation',
+            labelCfg: {
+                style: {
+                    fill: '#666',
+                    fontSize: 14,
+                    fontWeight: 'bold'
+                }
+            }
+        },
+        defaultEdge: {
+            shape: 'polyline'
+        },
+        edgeStyle: {
+            default: {
+                endArrow: true,
+                lineWidth: 2,
+                stroke: '#ccc'
+            }
+        }
+    });
+    graph.data(data);
+    graph.render();
+    graph.fitView();
+</script>
+</body>
+</html>
+</title>
+</head>
+<body>
+
+</body>
+</html>
