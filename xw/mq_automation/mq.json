@@ -1,0 +1,58 @@
+{
+  "queues": [
+    {
+      "name": "q.SCRS.SCRS_M.AsyncFirstCacheQueue",
+      "vhost": "/",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    }
+  ],
+  "exchanges": [
+    {
+      "name": "e.PMS.pms_exchange_charge_record",
+      "vhost": "/",
+      "type": "topic",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    }
+  ],
+  "bindings": [
+    {
+      "source": "CMP_MQ_INS_EXCHANGE",
+      "vhost": "/",
+      "destination": "CMP.ins_claims_notice",
+      "destination_type": "queue",
+      "routing_key": "CMP.ins_claims_notice",
+      "arguments": {}
+    },
+    {
+      "source": "CMP_MQ_INS_EXCHANGE",
+      "vhost": "/",
+      "destination": "CMP_MQ_INS_EXCHANGE.dead_letter",
+      "destination_type": "queue",
+      "routing_key": "CMP_MQ_INS_EXCHANGE.dead_letter",
+      "arguments": {}
+    }
+  ],
+  "unBindings": [
+    {
+      "source": "CMP_MQ_INS_EXCHANGE",
+      "vhost": "/",
+      "destination": "CMP.ins_claims_notice",
+      "destination_type": "queue",
+      "routing_key": "CMP.ins_claims_notice",
+      "arguments": {}
+    },
+    {
+      "source": "CMP_MQ_INS_EXCHANGE",
+      "vhost": "/",
+      "destination": "CMP_MQ_INS_EXCHANGE.dead_letter",
+      "destination_type": "queue",
+      "routing_key": "CMP_MQ_INS_EXCHANGE.dead_letter",
+      "arguments": {}
+    }
+  ]
+}
